@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "file": "C:/Users/LeshaPC/Games Factory/Temp/EasyResources/FirstResourceSetup.cs",
+      "entry": "FirstResourceSetup.Verify"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 1374,
+      "executeMs": 2,
+      "assemblyName": "PipelineRunScript_FirstResourceSetup_765535579a644bbd90a73cedff8b52c4",
+      "success": true,
+      "result": {
+        "initialTotal": 10,
+        "afterAdd": 15,
+        "paid": true,
+        "finalTotal": 11,
+        "stableId": "c1ee314211aa4de3b3177c588f6ec240"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResources\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

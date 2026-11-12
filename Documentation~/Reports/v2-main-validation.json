@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var p = UnityEditor.PackageManager.PackageInfo.FindForAssembly(typeof(EasyResources.ResourceStore).Assembly); return new { p.version, p.resolvedPath, definitions = EasyResources.Editor.ResourceIdValidator.GetAllDefinitions().Length, errors = EasyResources.Editor.ResourceIdValidator.ValidateAll() };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "version": "0.2.0",
+        "resolvedPath": "C:\\Users\\LeshaPC\\Games Factory\\Packages\\com.oreethehat.easy-resources",
+        "definitions": 2,
+        "errors": []
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

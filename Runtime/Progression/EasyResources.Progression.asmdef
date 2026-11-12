@@ -1,0 +1,5 @@
+{
+  "name": "EasyResources.Progression",
+  "rootNamespace": "EasyResources.Progression",
+  "references": ["EasyResources.Runtime"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EasyResources.Tests.PlayMode",
+  "references": ["EasyResources.Runtime", "EasyResources.Inventory", "EasyResources.Production", "EasyResources.Progression"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

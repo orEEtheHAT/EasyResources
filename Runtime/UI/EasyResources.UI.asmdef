@@ -1,0 +1,7 @@
+{
+  "name":"EasyResources.UI",
+  "rootNamespace":"EasyResources.UI",
+  "references":["EasyResources.Runtime"],
+  "defineConstraints":["EASY_RESOURCES_UI"],
+  "versionDefines":[{"name":"com.unity.modules.uielements","expression":"1.0.0","define":"EASY_RESOURCES_UI"}]
+}

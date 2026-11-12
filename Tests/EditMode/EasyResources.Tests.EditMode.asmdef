@@ -1,0 +1,7 @@
+{
+  "name": "EasyResources.Tests.EditMode",
+  "references": ["EasyResources.Runtime", "EasyResources.Editor", "EasyResources.Production", "EasyResources.Trading", "EasyResources.Inventory", "EasyResources.Progression", "EasyResources.LargeNumbers", "EasyResources.Networking"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

@@ -1,0 +1,1 @@
+{"name":"EasyResources.Samples.Workflows.Editor","references":["EasyResources.Samples.Workflows"],"includePlatforms":["Editor"],"defineConstraints":["EASY_RESOURCES_UI"],"versionDefines":[{"name":"com.unity.modules.uielements","expression":"1.0.0","define":"EASY_RESOURCES_UI"}]}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "foreach (var sample in UnityEditor.PackageManager.UI.Sample.FindByPackage(\"com.oreethehat.easy-resources\", \"0.2.0\")) { if (sample.displayName == \"Basics\") return new { imported = sample.Import(UnityEditor.PackageManager.UI.Sample.ImportOptions.None), sample.importPath }; } throw new System.InvalidOperationException(\"Basics sample is missing.\");"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "imported": true,
+        "importPath": "C:\\Users\\LeshaPC\\Games Factory\\Audits\\EasyResources\\IntegrationWave1\\CleanProject\\Assets\\Samples\\EasyResources\\0.2.0\\Basics"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Audits\\EasyResources\\IntegrationWave1\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

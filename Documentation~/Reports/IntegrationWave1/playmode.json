@@ -1,0 +1,98 @@
+{
+  "success": true,
+  "command": "command test",
+  "data": {
+    "command": "test",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 0.51,
+      "summary": {
+        "total": 10,
+        "passed": 10,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationLifecycleTests.ConsumerDestroyedByFinalPaymentEventCannotRefundOrPayAgain",
+          "Status": "Passed",
+          "Duration": 0.0381876,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationLifecycleTests.DestroyedConsumerBeforeExecutionCancelsWithoutCallbacksOrCharge",
+          "Status": "Passed",
+          "Duration": 0.0145102,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationLifecycleTests.WalletDestroyedDuringDeferredPublicationLivesUntilObserversFinish",
+          "Status": "Passed",
+          "Duration": 0.0185568,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.ComponentsKeepSeparateBalancesAndDestroyReleasesReservations",
+          "Status": "Passed",
+          "Duration": 0.0335742,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.DestroyingOwnerDuringNotificationDefersCleanupUntilObserversFinish",
+          "Status": "Passed",
+          "Duration": 0.0355366,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.UnityEventSeesCompleteCompoundPaymentAndReentryIsRejected",
+          "Status": "Passed",
+          "Duration": 0.017842,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.ComponentsRestoreAfterWalletWithoutCancellingNewReservations",
+          "Status": "Passed",
+          "Duration": 0.0443639,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.DestroyingInventoryComponentDuringPaymentPublishesThenDisposes",
+          "Status": "Passed",
+          "Duration": 0.0191642,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.DestroyingProgressionComponentDuringPaymentDoesNotInterruptCommit",
+          "Status": "Passed",
+          "Duration": 0.0280449,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourcePanelTests.PanelCreatesItsDocumentUpdatesByEventAndDoesNotDuplicateOnEnable",
+          "Status": "Passed",
+          "Duration": 0.1746167,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

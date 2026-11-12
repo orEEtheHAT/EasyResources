@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "return new { compiling = EditorApplication.isCompiling, updating = EditorApplication.isUpdating, playing = EditorApplication.isPlaying, duplicateIds = EasyResources.Editor.ResourceIdValidator.ValidateAll() };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "compiling": false,
+        "updating": false,
+        "playing": false,
+        "duplicateIds": []
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

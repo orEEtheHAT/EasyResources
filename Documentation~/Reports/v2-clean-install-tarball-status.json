@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var p = UnityEditor.PackageManager.PackageInfo.FindForAssembly(typeof(EasyResources.ResourceStore).Assembly); return new { p.version, source = p.source.ToString(), p.resolvedPath };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "version": "0.2.0",
+        "source": "LocalTarball",
+        "resolvedPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResourcesV2\\CleanProject\\Library\\PackageCache\\com.oreethehat.easy-resources@fcb35ed8e728"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResourcesV2\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

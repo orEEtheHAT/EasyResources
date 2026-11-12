@@ -1,0 +1,862 @@
+{
+  "success": true,
+  "command": "command test",
+  "data": {
+    "command": "test",
+    "parameters": {
+      "mode": "editor",
+      "filter": "EasyResources.Tests.EditMode",
+      "filter-type": "assembly"
+    },
+    "result": {
+      "Summary": {
+        "Total": 118,
+        "Passed": 118,
+        "Failed": 0,
+        "Skipped": 0,
+        "Inconclusive": 0
+      },
+      "Results": [
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.CancellationAndFailedAdmissionLeaveNoEventRevisionOrHistory",
+          "Status": "Passed",
+          "Duration": 0.0362865,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.CoordinatedRestorePublishesOnlyTheNewWorldAndInvalidatesAllOldScopes",
+          "Status": "Passed",
+          "Duration": 0.0086329,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.CopiesAndOutOfOrderScopeCompletionDoNotFlushOtherScopes",
+          "Status": "Passed",
+          "Duration": 0.0007866,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.DisposalInvalidatesAllCopiesWithoutFlushingAbandonedState",
+          "Status": "Passed",
+          "Duration": 0.0012514,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.EmptyHoldsCancelQuietlyButReplacingAnExistingIdentityNotifies",
+          "Status": "Passed",
+          "Duration": 0.0008568,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ExistingReservationMetadataAndCapacityChangesRemainObservable",
+          "Status": "Passed",
+          "Duration": 0.0031158,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ExplicitRestoreInvalidatesOldScopesAndHoldsButNotNewOnes",
+          "Status": "Passed",
+          "Duration": 0.0058311,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.InvalidRestoreLeavesCurrentBoundaryAndPaymentIntact",
+          "Status": "Passed",
+          "Duration": 0.0007276,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.MultiResourceHoldAndCommitAreSilentUntilOutcomeIsCoherent",
+          "Status": "Passed",
+          "Duration": 0.0017312,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.MultiStoreFailureDoesNotSpendPaymentOrLeakNotifications",
+          "Status": "Passed",
+          "Duration": 0.0055878,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.NestedImmediatePulseSeesParentHoldAndPublishesOnlyAfterParent",
+          "Status": "Passed",
+          "Duration": 0.00071,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ObserverMutationReentryIsRejectedAndExceptionsDoNotUndoPayment",
+          "Status": "Passed",
+          "Duration": 0.007496,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.RestoreFromAnIndependentOperationInvalidatesOldScopeWithoutReplayingIt",
+          "Status": "Passed",
+          "Duration": 0.0017498,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ScopeClosedByADeferredObserverWaitsUntilThatPublicationEnds",
+          "Status": "Passed",
+          "Duration": 0.0020406,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ScopeClosedInsideAnotherStoreCallbackFlushesAfterAllOriginalObservers",
+          "Status": "Passed",
+          "Duration": 0.0011662,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ScopeDisposalDoesNotAutomaticallyCommitOrCancelAHold",
+          "Status": "Passed",
+          "Duration": 0.0004508,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.ScopeFromAnotherThreadDoesNotCloseTheActiveBoundary",
+          "Status": "Passed",
+          "Duration": 0.0026551,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.SeveralDeferredStoresPrepareRevisionsBeforeAnyDeferredObserver",
+          "Status": "Passed",
+          "Duration": 0.0012043,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.SingleRevisionBoundaryCanReachMaximumWithoutOverflowingInternally",
+          "Status": "Passed",
+          "Duration": 0.0005836,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.DeferredNotificationTests.SnapshotAndReplicationRequireACompletedBoundary",
+          "Status": "Passed",
+          "Duration": 0.0032974,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.ActiveSnapshotRequiresOwnersAndExplicitRestoreThenRebasesDeadline",
+          "Status": "Passed",
+          "Duration": 0.0022474,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.AnonymousHoldsAreNotSilentlySaved",
+          "Status": "Passed",
+          "Duration": 0.0003262,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.BatchOverflowLeavesQueuedOperationsIntact",
+          "Status": "Passed",
+          "Duration": 0.001232,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.BoundedHistoryReportsDroppedRevisionsAndDetailedEventsSeeFinalState",
+          "Status": "Passed",
+          "Duration": 0.0005476,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.CompositeTransactionIsReusableAndObserverCannotMutatePlan",
+          "Status": "Passed",
+          "Duration": 0.0005225,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.CostArithmeticIsExactAndDoesNotOverflowIntermediateMultiplication",
+          "Status": "Passed",
+          "Duration": 0.0043008,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.DestinationFailureNeverChargesSource",
+          "Status": "Passed",
+          "Duration": 0.0006816,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.ExchangeChecksGrossInputsAndFinalCapacity",
+          "Status": "Passed",
+          "Duration": 0.0005382,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.LegacyVersionOneAndAliasPrecisionMigrationAreSupported",
+          "Status": "Passed",
+          "Duration": 0.0053079,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.LongAmountsAndFixedPrecisionRoundTripWithoutFloatLoss",
+          "Status": "Passed",
+          "Duration": 0.0048185,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.MultipleStoresRollbackWhenLastParticipantCannotPay",
+          "Status": "Passed",
+          "Duration": 0.0004065,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.OwnerCancellationExpiryAndRenewalAreIndependent",
+          "Status": "Passed",
+          "Duration": 0.0008236,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.PartialCommitResizeAndCancelPreserveOnlyRemainingHold",
+          "Status": "Passed",
+          "Duration": 0.0006221,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.ReservationCompletionAndOutputGrantAreAtomicAndRetryable",
+          "Status": "Passed",
+          "Duration": 0.0006414,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.RestoreAllDoesNotPartiallyApplyInvalidStateAndPublishesWholeGroup",
+          "Status": "Passed",
+          "Duration": 0.0008716,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.RestoringInvalidatesOldHandlesAndScopes",
+          "Status": "Passed",
+          "Duration": 0.000855,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.TransferIsAtomicAndBothStoresStayLockedThroughoutNotifications",
+          "Status": "Passed",
+          "Duration": 0.0008757,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceAdvancedTests.WeightVolumeFilterAndPartialAcceptanceAreExplicit",
+          "Status": "Passed",
+          "Duration": 0.0012263,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.BatchFreezesEnqueuedPlansAndDefersNewWorkUntilTheNextProcessCall",
+          "Status": "Passed",
+          "Duration": 0.0010376,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.EveryFailureCanBeDisplayedWithoutAnOptionalResourceReference",
+          "Status": "Passed",
+          "Duration": 0.0026563,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.FlowOverflowDoesNotConsumeInputsOrChangeRemainders",
+          "Status": "Passed",
+          "Duration": 0.0034441,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.HistoryTracksAnIncompleteEvictedTransactionAndForcesFullReplication",
+          "Status": "Passed",
+          "Duration": 0.0004489,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.InvalidAuthoritySnapshotCannotReplaceMoneyOrReplayWatermarks",
+          "Status": "Passed",
+          "Duration": 0.0067908,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.MigrationAlsoConvertsFrozenOperationRowsWithoutMutatingOriginal",
+          "Status": "Passed",
+          "Duration": 0.0009922,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.OfflineProductionCatchupRespectsCompletionBudget",
+          "Status": "Passed",
+          "Duration": 0.009493,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.ReplicaRejectsReservedBalanceWithoutReservationsAndCanRetryInitialSnapshot",
+          "Status": "Passed",
+          "Duration": 0.003178,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.SingleStoreFastPathsMatchGeneralTransactionsAcrossRandomFailuresAndHolds",
+          "Status": "Passed",
+          "Duration": 0.0131222,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.WrongThreadCannotDequeueOrUnfreezeAnOperation",
+          "Status": "Passed",
+          "Duration": 0.0014723,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceEdgeCaseTests.ZeroBigCapacityIsExplicitAndExpiredBigHoldsAreNotCreated",
+          "Status": "Passed",
+          "Duration": 0.0068909,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceIdentityTests.AssetRenameMoveAndReloadPreserveIdAndCopyReportsDuplicate",
+          "Status": "Passed",
+          "Duration": 0.262591,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceLargeNumberTests.ExactLargeQuantitiesReserveCommitTransferAndRoundTrip",
+          "Status": "Passed",
+          "Duration": 0.0118847,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceLargeNumberTests.LargeBridgeDoesNotLoseFundsOnOrdinaryCapacityFailure",
+          "Status": "Passed",
+          "Duration": 0.0012073,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceLargeNumberTests.LargeCapacityFailureRollsBackBothSides",
+          "Status": "Passed",
+          "Duration": 0.0004384,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceLargeNumberTests.LargeMalformedSnapshotAndOverheldStateAreRejected",
+          "Status": "Passed",
+          "Duration": 0.0007029,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.CreditDebtAndMoneyPublishTogetherAndInterestIsExplicit",
+          "Status": "Passed",
+          "Duration": 0.0017956,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.DeliveryCapacityFailureKeepsCargoAndArrivalIsIdempotent",
+          "Status": "Passed",
+          "Duration": 0.0015241,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.DeliveryRestoresWithNamedReservation",
+          "Status": "Passed",
+          "Duration": 0.0009472,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.FlowConsumesFuelAndProducesAtomicallyWithExactRemainders",
+          "Status": "Passed",
+          "Duration": 0.0007845,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.FlowRestoreContinuesFractionWithoutDrift",
+          "Status": "Passed",
+          "Duration": 0.0029357,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.InventoryCraftCapacityFailureDoesNotSpendAndSuccessPublishesBoth",
+          "Status": "Passed",
+          "Duration": 0.0038351,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.InventoryQualityExpiryAndSavedOfflineTimeRemainExplicit",
+          "Status": "Passed",
+          "Duration": 0.0032479,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.InventoryStacksCompatibleItemsAndPartialAcceptanceReportsExactCount",
+          "Status": "Passed",
+          "Duration": 0.0009884,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.InventoryUniqueTransferPreservesIdentityConditionAndAtomicFailure",
+          "Status": "Passed",
+          "Duration": 0.0015406,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.InventoryWeightAndAllowedDefinitionsConstrainAcceptance",
+          "Status": "Passed",
+          "Duration": 0.000612,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.ProductionBlocksWithoutSpendingAndPublishesCompletedQueueWithBalances",
+          "Status": "Passed",
+          "Duration": 0.0010362,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.ProductionCatchupIsBoundedAndPausePreservesRemainingTime",
+          "Status": "Passed",
+          "Duration": 0.0008227,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.ProductionRejectsExternallyResizedPayment",
+          "Status": "Passed",
+          "Duration": 0.0014344,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.ProductionSnapshotRebindsHeldPaymentAndFrozenRecipe",
+          "Status": "Passed",
+          "Duration": 0.0008423,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.TradeCapacityAndStalePriceCannotChargeBuyer",
+          "Status": "Passed",
+          "Duration": 0.0041891,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleTests.TradeChargesQuotedTaxesAndFeesAndConservesBalances",
+          "Status": "Passed",
+          "Duration": 0.0015053,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.AuthorityAuthenticatesActorAndRepeatedCommandCannotSpendTwice",
+          "Status": "Passed",
+          "Duration": 0.0008331,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.EvictedAndRestoredCommandWatermarksStillPreventReplay",
+          "Status": "Passed",
+          "Duration": 0.0005937,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.FailedAndStaleCommandsConsumeSequenceButGapsDoNot",
+          "Status": "Passed",
+          "Duration": 0.0005227,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.HistoryGapFallsBackToFullAndClientCannotMutateItsReplica",
+          "Status": "Passed",
+          "Duration": 0.0007652,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.IncomingTransferPolicyProtectsForeignStores",
+          "Status": "Passed",
+          "Duration": 0.0003793,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.InvalidPacketDoesNotPartiallyApplyOrAdvanceRevision",
+          "Status": "Passed",
+          "Duration": 0.0021686,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.PacketDeltasIncludeReservationsAndZeroBalancesAndRejectOutOfOrder",
+          "Status": "Passed",
+          "Duration": 0.0007245,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.ReopeningAuthenticatedSessionInvalidatesOldCommands",
+          "Status": "Passed",
+          "Duration": 0.0003135,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceNetworkTests.ServerOwnedActionBuildsItsPriceAndCaptureInsideCallbackIsConsistent",
+          "Status": "Passed",
+          "Duration": 0.0009227,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceProgressionTests.ExclusiveBranchesAndPrestigeUseOneAtomicOperation",
+          "Status": "Passed",
+          "Duration": 0.0070532,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceProgressionTests.InvalidGraphAndXpOverflowLeaveExistingStateIntact",
+          "Status": "Passed",
+          "Duration": 0.0010591,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceProgressionTests.LevelsPrerequisitesRanksAndModifiersAreConsistentDuringPaymentEvents",
+          "Status": "Passed",
+          "Duration": 0.0017224,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceProgressionTests.ResearchCancelReleasesInputsAndAllowsAnotherOperation",
+          "Status": "Passed",
+          "Duration": 0.0010127,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceProgressionTests.ResearchRestoreConsumesOnlyItsOwnedPaymentAfterRemainingDuration",
+          "Status": "Passed",
+          "Duration": 0.0024122,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ActiveReservationBlocksCaptureAndRestoreWithoutCancellingIt",
+          "Status": "Passed",
+          "Duration": 0.0009972,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CallsFromAnotherThreadAreRejected",
+          "Status": "Passed",
+          "Duration": 0.0011133,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CancelAndDisposeReleaseOnlyTheirReservation",
+          "Status": "Passed",
+          "Duration": 0.0004126,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CapacityGrowthAndOldHandlesCannotCorruptNewReservations",
+          "Status": "Passed",
+          "Duration": 0.0130852,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CompletedHandleIsAlsoSafeInsideItsCompletionEvent",
+          "Status": "Passed",
+          "Duration": 0.0004385,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CompoundSpendUpdatesEveryResourceBeforeOneEvent",
+          "Status": "Passed",
+          "Duration": 0.0003597,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CopiedReservationCommitsExactlyOnce",
+          "Status": "Passed",
+          "Duration": 0.0003011,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CostCopiesCallerArrayAndActiveReservationKeepsItsCost",
+          "Status": "Passed",
+          "Duration": 0.0003403,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DefaultAndDisposedOwnerHandlesAreSafe",
+          "Status": "Passed",
+          "Duration": 0.0003874,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateDefinitionIdsAreRejectedAtAllEntryPoints",
+          "Status": "Passed",
+          "Duration": 0.0006637,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateRowsAreSummedBeforeAffordabilityCheck",
+          "Status": "Passed",
+          "Duration": 0.0002769,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateSavedIdsAreRejectedEvenWhenUnknownIdsAreIgnored",
+          "Status": "Passed",
+          "Duration": 0.0004743,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.EmptyCostSucceedsWithoutSpendingAndItsReservationStillRequiresCompletion",
+          "Status": "Passed",
+          "Duration": 0.0004381,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.EventReentryIsRejectedAndAllObserversSeeTheSameCommittedState",
+          "Status": "Passed",
+          "Duration": 0.0008634,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(11,1)",
+          "Status": "Passed",
+          "Duration": 0.0006157,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(1,6)",
+          "Status": "Passed",
+          "Duration": 0.0001241,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(\"wood\",-1)",
+          "Status": "Passed",
+          "Duration": 0.0005178,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(\"\",2)",
+          "Status": "Passed",
+          "Duration": 0.0001329,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(null,2)",
+          "Status": "Passed",
+          "Duration": 0.000111,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ManyContainersAndCostsRemainIndependent",
+          "Status": "Passed",
+          "Duration": 0.0034923,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.NegativeNullAndOverflowInputsDoNotMutateBalances",
+          "Status": "Passed",
+          "Duration": 0.0009405,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.RandomOperationsMatchIndependentBalanceModel",
+          "Status": "Passed",
+          "Duration": 0.0456759,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ReservationAndRestoreEventsExposeWholeTransactions",
+          "Status": "Passed",
+          "Duration": 0.0010875,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ReservationEventCannotCancelAnotherReservationDuringNotification",
+          "Status": "Passed",
+          "Duration": 0.0004871,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SharedDefinitionsDoNotShareBalances",
+          "Status": "Passed",
+          "Duration": 0.0003875,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SnapshotRoundTripUsesIdsAndCopiesData",
+          "Status": "Passed",
+          "Duration": 0.0012659,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SubscriptionChangesTakeEffectOnNextNotification",
+          "Status": "Passed",
+          "Duration": 0.0004604,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult",
+          "Status": "Passed",
+          "Duration": 0.0022337,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.TwoConsumersCannotSpendReservedUnits",
+          "Status": "Passed",
+          "Duration": 0.0005851,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnknownIdRejectsWholeRestoreByDefault",
+          "Status": "Passed",
+          "Duration": 0.000669,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(-1)",
+          "Status": "Passed",
+          "Duration": 0.0006494,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(0)",
+          "Status": "Passed",
+          "Duration": 0.000143,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(3)",
+          "Status": "Passed",
+          "Duration": 0.0001114,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.WarmFrequentOperationsAllocateNoManagedMemory",
+          "Status": "Passed",
+          "Duration": 0.0147684,
+          "Message": null,
+          "StackTrace": null
+        }
+      ],
+      "Duration": 1.04,
+      "StatusPath": null,
+      "Mode": "EditMode",
+      "FilterApplied": "assembly: EasyResources.Tests.EditMode",
+      "success": true,
+      "result": null
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Audits\\EasyResources\\IntegrationWave1\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

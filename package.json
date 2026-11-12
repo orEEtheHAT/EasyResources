@@ -1,0 +1,33 @@
+{
+  "name": "com.oreethehat.easy-resources",
+  "displayName": "EasyResources",
+  "version": "0.3.0",
+  "unity": "6000.3",
+  "description": "Atomic resource transactions, capacities, persistent reservations and exact quantities. Optional production, trading, inventory, progression, networking, large numbers and UI modules.",
+  "author": {
+    "name": "orEEtheHAT"
+  },
+  "keywords": [
+    "resources",
+    "inventory",
+    "economy",
+    "building"
+  ],
+  "samples": [
+    {
+      "displayName": "Basics",
+      "description": "Wood, Stone, two containers and 13 automatic transaction checks. Open ResourceBasics.unity and press Play. Requires EasyResources 0.3.0+. No prerequisite sample imports.",
+      "path": "Samples~/Basics"
+    },
+    {
+      "displayName": "Workflows",
+      "description": "18 automatic production, delivery, trading, inventory, progression, authority and UI examples. Requires EasyResources 0.3.0+, UI Toolkit module 1.0.0. No prerequisite sample imports.",
+      "path": "Samples~/Workflows"
+    },
+    {
+      "displayName": "Benchmarks",
+      "description": "Development-player benchmark for up to 10,000 containers and 160,000 reservations. Requires EasyResources 0.3.0+. No prerequisite sample imports.",
+      "path": "Samples~/Benchmarks"
+    }
+  ]
+}

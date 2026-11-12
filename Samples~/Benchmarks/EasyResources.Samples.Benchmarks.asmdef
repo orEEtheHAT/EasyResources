@@ -1,0 +1,6 @@
+{
+  "name": "EasyResources.Samples.Benchmarks",
+  "rootNamespace": "EasyResources.Samples",
+  "references": ["EasyResources.Runtime", "EasyResources.Production", "EasyResources.Trading", "EasyResources.Inventory", "EasyResources.Progression", "EasyResources.Networking", "EasyResources.LargeNumbers"],
+  "autoReferenced": true
+}

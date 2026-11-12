@@ -1,0 +1,6 @@
+{
+  "name": "EasyResources.Samples.Basics",
+  "rootNamespace": "EasyResources.Samples",
+  "references": ["EasyResources.Runtime"],
+  "autoReferenced": true
+}

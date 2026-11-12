@@ -1,0 +1,172 @@
+{
+  "source": "Audits\\EasyCombat\\IntegrationWave1\\editmode.json",
+  "sourceOwner": "EasyCombat coordinator",
+  "summary": {
+    "total": 23,
+    "passed": 23,
+    "failed": 0
+  },
+  "results": [
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.AbilityAndImmediateBeamShareBudgetAndNotifyOnlyAfterBothComplete",
+      "Status": "Passed",
+      "Duration": 0.0635085,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.AbilityCancellationAndDeliveryRejectionDoNotCharge",
+      "Status": "Passed",
+      "Duration": 0.0014135,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.AuthoritativeRestoreInvalidatesOldPaymentWithoutSpendingNewLife",
+      "Status": "Passed",
+      "Duration": 0.0133734,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.BeamPaymentObserverCannotAdmitAnotherAbilityOnTheSameWallet",
+      "Status": "Passed",
+      "Duration": 0.0010938,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.BeamStopsBeforeAnUnpaidPulse",
+      "Status": "Passed",
+      "Duration": 0.0010642,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.CommonSnapshotRestoresActiveCastAndChargesOnlyOnResumedRelease",
+      "Status": "Passed",
+      "Duration": 0.0289743,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.CompletionNotificationsRejectResourceReentryAndCannotChargeTwice",
+      "Status": "Passed",
+      "Duration": 0.0008211,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.CompletionSurvivesProviderDestructionAndNeverUsesReboundWallet",
+      "Status": "Passed",
+      "Duration": 0.0006494,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.DecimalMappingAndDuplicateAliasesAreExact",
+      "Status": "Passed",
+      "Duration": 0.0011588,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.DisposedStoreMakesOldCompletionHarmless",
+      "Status": "Passed",
+      "Duration": 0.0012988,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.DuplicateRowsCannotOverflowTheIntegerLedger",
+      "Status": "Passed",
+      "Duration": 0.0008757,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.FailedAdmissionRefundsAllResourcesWithoutIntermediateEvents",
+      "Status": "Passed",
+      "Duration": 0.0009034,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidFractionOrAmountRejectsBeforeAnyBalanceChange(-1.0f)",
+      "Status": "Passed",
+      "Duration": 0.0014464,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidFractionOrAmountRejectsBeforeAnyBalanceChange(float.NaN)",
+      "Status": "Passed",
+      "Duration": 0.0003369,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidFractionOrAmountRejectsBeforeAnyBalanceChange(float.PositiveInfinity)",
+      "Status": "Passed",
+      "Duration": 0.0002922,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidFractionOrAmountRejectsBeforeAnyBalanceChange(float.MaxValue)",
+      "Status": "Passed",
+      "Duration": 0.000304,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidFractionOrAmountRejectsBeforeAnyBalanceChange(0.001f)",
+      "Status": "Passed",
+      "Duration": 0.0003034,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.InvalidLateDefenseRollsBackBeforePayment",
+      "Status": "Passed",
+      "Duration": 0.0056812,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.IrreversibleExecutionFailureKeepsCostAndPublishesAfterFailedOutcome",
+      "Status": "Passed",
+      "Duration": 0.0016076,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.MultiResourceInsufficiencyHasNoPartialReservationOrNotification",
+      "Status": "Passed",
+      "Duration": 0.0007347,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.NestedPaidDefenseSharesWalletAndObservesFinalAbilityOutcome",
+      "Status": "Passed",
+      "Duration": 0.0011686,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.NestedPaymentsPublishOnceAndCancellingParentDoesNotRefundCommittedChild",
+      "Status": "Passed",
+      "Duration": 0.0007946,
+      "Message": null,
+      "StackTrace": null
+    },
+    {
+      "FullName": "EasyCombat.Integrations.Tests.EasyResourcesCostTests.UnknownOrAmbiguousMappingsRejectInsteadOfUsingLegacyFunds",
+      "Status": "Passed",
+      "Duration": 0.0016053,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

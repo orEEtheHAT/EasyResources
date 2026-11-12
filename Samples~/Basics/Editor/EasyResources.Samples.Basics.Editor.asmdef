@@ -1,0 +1,7 @@
+{
+  "name": "EasyResources.Samples.Basics.Editor",
+  "rootNamespace": "EasyResources.Samples.Editor",
+  "references": ["EasyResources.Runtime", "EasyResources.Samples.Basics"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

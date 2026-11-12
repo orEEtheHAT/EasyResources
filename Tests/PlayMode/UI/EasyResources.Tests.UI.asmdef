@@ -1,0 +1,8 @@
+{
+  "name":"EasyResources.Tests.UI",
+  "references":["EasyResources.Runtime","EasyResources.UI"],
+  "optionalUnityReferences":["TestAssemblies"],
+  "autoReferenced":false,
+  "defineConstraints":["EASY_RESOURCES_UI"],
+  "versionDefines":[{"name":"com.unity.modules.uielements","expression":"1.0.0","define":"EASY_RESOURCES_UI"}]
+}

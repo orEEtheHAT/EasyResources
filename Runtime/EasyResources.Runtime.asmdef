@@ -1,0 +1,6 @@
+{
+  "name": "EasyResources.Runtime",
+  "rootNamespace": "EasyResources",
+  "references": [],
+  "autoReferenced": true
+}

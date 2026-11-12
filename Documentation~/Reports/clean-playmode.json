@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "command": "command test",
+  "data": {
+    "command": "test",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 0.05,
+      "summary": {
+        "total": 2,
+        "passed": 2,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.ComponentsKeepSeparateBalancesAndDestroyReleasesReservations",
+          "Status": "Passed",
+          "Duration": 0.0240712,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.UnityEventSeesCompleteCompoundPaymentAndReentryIsRejected",
+          "Status": "Passed",
+          "Duration": 0.0042033,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7801,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResources\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

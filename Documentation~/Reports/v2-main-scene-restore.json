@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command scene",
+  "data": {
+    "command": "scene",
+    "parameters": {
+      "path": "Assets/Scenes/SampleScene.unity"
+    },
+    "result": {
+      "globalId": "GlobalObjectId_V1-1-99c9720ab356a0642a771bea13969a05-102900000-0",
+      "assetPath": "Assets/Scenes/SampleScene.unity",
+      "guid": "99c9720ab356a0642a771bea13969a05",
+      "fileId": 102900000,
+      "instanceId": null,
+      "hierarchyPath": null,
+      "type": "SceneAsset"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

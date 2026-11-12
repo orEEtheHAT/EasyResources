@@ -1,0 +1,48 @@
+{
+    "unity": "6000.3.22f1",
+    "utc": "2026-11-12T17:13:49.9009586Z",
+    "backend": "Mono",
+    "cpu": "Intel(R) Core(TM) i7-14700KF",
+    "player": false,
+    "development": true,
+    "allocationPositiveControl": 1,
+    "measurements": [
+        {
+            "scenario": "legacy-immediate-spend-return",
+            "iterations": 1000,
+            "batches": 15,
+            "medianMilliseconds": 1.5883,
+            "p95Milliseconds": 1.7257,
+            "allocationEvents": 0,
+            "invariantsPassed": true
+        },
+        {
+            "scenario": "nested-admission-pulse-and-refund",
+            "iterations": 1000,
+            "batches": 15,
+            "medianMilliseconds": 4.3642,
+            "p95Milliseconds": 4.459,
+            "allocationEvents": 0,
+            "invariantsPassed": true
+        },
+        {
+            "scenario": "cancelled-admission-no-events",
+            "iterations": 1000,
+            "batches": 15,
+            "medianMilliseconds": 1.6096,
+            "p95Milliseconds": 1.6501,
+            "allocationEvents": 0,
+            "invariantsPassed": true
+        },
+        {
+            "scenario": "multi-store-transaction-roundtrip",
+            "iterations": 1000,
+            "batches": 15,
+            "medianMilliseconds": 10.5001,
+            "p95Milliseconds": 10.7588,
+            "allocationEvents": 0,
+            "invariantsPassed": true
+        }
+    ],
+    "error": ""
+}

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="97" result="Passed" total="97" passed="97" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0,5949108">
+  <test-suite type="TestSuite" id="1000" name="NoUIProject" fullname="NoUIProject" runstate="Runnable" testcasecount="97" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.594911" total="97" passed="97" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1109" name="EasyResources.Tests.EditMode.dll" fullname="C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIProject/Library/ScriptAssemblies/EasyResources.Tests.EditMode.dll" runstate="Runnable" testcasecount="97" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.586461" total="97" passed="97" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="81224" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1110" name="EasyResources" fullname="EasyResources" runstate="Runnable" testcasecount="97" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.586176" total="97" passed="97" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1111" name="Tests" fullname="EasyResources.Tests" runstate="Runnable" testcasecount="97" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.586009" total="97" passed="97" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="ResourceAdvancedTests" fullname="EasyResources.Tests.ResourceAdvancedTests" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" testcasecount="18" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.092455" total="18" passed="18" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1013" name="ActiveSnapshotRequiresOwnersAndExplicitRestoreThenRebasesDeadline" fullname="EasyResources.Tests.ResourceAdvancedTests.ActiveSnapshotRequiresOwnersAndExplicitRestoreThenRebasesDeadline" methodname="ActiveSnapshotRequiresOwnersAndExplicitRestoreThenRebasesDeadline" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="416499927" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.044984" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="AnonymousHoldsAreNotSilentlySaved" fullname="EasyResources.Tests.ResourceAdvancedTests.AnonymousHoldsAreNotSilentlySaved" methodname="AnonymousHoldsAreNotSilentlySaved" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1316972975" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.000490" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="BatchOverflowLeavesQueuedOperationsIntact" fullname="EasyResources.Tests.ResourceAdvancedTests.BatchOverflowLeavesQueuedOperationsIntact" methodname="BatchOverflowLeavesQueuedOperationsIntact" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="428818385" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.001903" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="BoundedHistoryReportsDroppedRevisionsAndDetailedEventsSeeFinalState" fullname="EasyResources.Tests.ResourceAdvancedTests.BoundedHistoryReportsDroppedRevisionsAndDetailedEventsSeeFinalState" methodname="BoundedHistoryReportsDroppedRevisionsAndDetailedEventsSeeFinalState" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="793250331" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.001951" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="CompositeTransactionIsReusableAndObserverCannotMutatePlan" fullname="EasyResources.Tests.ResourceAdvancedTests.CompositeTransactionIsReusableAndObserverCannotMutatePlan" methodname="CompositeTransactionIsReusableAndObserverCannotMutatePlan" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="2034846299" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.000730" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="CostArithmeticIsExactAndDoesNotOverflowIntermediateMultiplication" fullname="EasyResources.Tests.ResourceAdvancedTests.CostArithmeticIsExactAndDoesNotOverflowIntermediateMultiplication" methodname="CostArithmeticIsExactAndDoesNotOverflowIntermediateMultiplication" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1837837973" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.004502" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1003" name="DestinationFailureNeverChargesSource" fullname="EasyResources.Tests.ResourceAdvancedTests.DestinationFailureNeverChargesSource" methodname="DestinationFailureNeverChargesSource" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="79152531" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.003088" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1004" name="ExchangeChecksGrossInputsAndFinalCapacity" fullname="EasyResources.Tests.ResourceAdvancedTests.ExchangeChecksGrossInputsAndFinalCapacity" methodname="ExchangeChecksGrossInputsAndFinalCapacity" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="400699230" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.000592" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="LegacyVersionOneAndAliasPrecisionMigrationAreSupported" fullname="EasyResources.Tests.ResourceAdvancedTests.LegacyVersionOneAndAliasPrecisionMigrationAreSupported" methodname="LegacyVersionOneAndAliasPrecisionMigrationAreSupported" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="372761632" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:47Z" duration="0.005376" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="LongAmountsAndFixedPrecisionRoundTripWithoutFloatLoss" fullname="EasyResources.Tests.ResourceAdvancedTests.LongAmountsAndFixedPrecisionRoundTripWithoutFloatLoss" methodname="LongAmountsAndFixedPrecisionRoundTripWithoutFloatLoss" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1325343965" result="Passed" start-time="2026-11-11 22:58:47Z" end-time="2026-11-11 22:58:48Z" duration="0.005749" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1006" name="MultipleStoresRollbackWhenLastParticipantCannotPay" fullname="EasyResources.Tests.ResourceAdvancedTests.MultipleStoresRollbackWhenLastParticipantCannotPay" methodname="MultipleStoresRollbackWhenLastParticipantCannotPay" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1010781737" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000376" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="OwnerCancellationExpiryAndRenewalAreIndependent" fullname="EasyResources.Tests.ResourceAdvancedTests.OwnerCancellationExpiryAndRenewalAreIndependent" methodname="OwnerCancellationExpiryAndRenewalAreIndependent" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1002911417" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001124" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1010" name="PartialCommitResizeAndCancelPreserveOnlyRemainingHold" fullname="EasyResources.Tests.ResourceAdvancedTests.PartialCommitResizeAndCancelPreserveOnlyRemainingHold" methodname="PartialCommitResizeAndCancelPreserveOnlyRemainingHold" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1050989334" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001955" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1011" name="ReservationCompletionAndOutputGrantAreAtomicAndRetryable" fullname="EasyResources.Tests.ResourceAdvancedTests.ReservationCompletionAndOutputGrantAreAtomicAndRetryable" methodname="ReservationCompletionAndOutputGrantAreAtomicAndRetryable" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1177714124" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000712" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="RestoreAllDoesNotPartiallyApplyInvalidStateAndPublishesWholeGroup" fullname="EasyResources.Tests.ResourceAdvancedTests.RestoreAllDoesNotPartiallyApplyInvalidStateAndPublishesWholeGroup" methodname="RestoreAllDoesNotPartiallyApplyInvalidStateAndPublishesWholeGroup" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="422278483" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001487" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="RestoringInvalidatesOldHandlesAndScopes" fullname="EasyResources.Tests.ResourceAdvancedTests.RestoringInvalidatesOldHandlesAndScopes" methodname="RestoringInvalidatesOldHandlesAndScopes" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1892026274" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001005" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="TransferIsAtomicAndBothStoresStayLockedThroughoutNotifications" fullname="EasyResources.Tests.ResourceAdvancedTests.TransferIsAtomicAndBothStoresStayLockedThroughoutNotifications" methodname="TransferIsAtomicAndBothStoresStayLockedThroughoutNotifications" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1584108507" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001142" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="WeightVolumeFilterAndPartialAcceptanceAreExplicit" fullname="EasyResources.Tests.ResourceAdvancedTests.WeightVolumeFilterAndPartialAcceptanceAreExplicit" methodname="WeightVolumeFilterAndPartialAcceptanceAreExplicit" classname="EasyResources.Tests.ResourceAdvancedTests" runstate="Runnable" seed="1803110498" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001056" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1020" name="ResourceEdgeCaseTests" fullname="EasyResources.Tests.ResourceEdgeCaseTests" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" testcasecount="10" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.047129" total="10" passed="10" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1024" name="BatchFreezesEnqueuedPlansAndDefersNewWorkUntilTheNextProcessCall" fullname="EasyResources.Tests.ResourceEdgeCaseTests.BatchFreezesEnqueuedPlansAndDefersNewWorkUntilTheNextProcessCall" methodname="BatchFreezesEnqueuedPlansAndDefersNewWorkUntilTheNextProcessCall" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1961187424" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000938" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="EveryFailureCanBeDisplayedWithoutAnOptionalResourceReference" fullname="EasyResources.Tests.ResourceEdgeCaseTests.EveryFailureCanBeDisplayedWithoutAnOptionalResourceReference" methodname="EveryFailureCanBeDisplayedWithoutAnOptionalResourceReference" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1636818323" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.003362" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="FlowOverflowDoesNotConsumeInputsOrChangeRemainders" fullname="EasyResources.Tests.ResourceEdgeCaseTests.FlowOverflowDoesNotConsumeInputsOrChangeRemainders" methodname="FlowOverflowDoesNotConsumeInputsOrChangeRemainders" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="951794859" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.003601" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="HistoryTracksAnIncompleteEvictedTransactionAndForcesFullReplication" fullname="EasyResources.Tests.ResourceEdgeCaseTests.HistoryTracksAnIncompleteEvictedTransactionAndForcesFullReplication" methodname="HistoryTracksAnIncompleteEvictedTransactionAndForcesFullReplication" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="568133112" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.005170" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="InvalidAuthoritySnapshotCannotReplaceMoneyOrReplayWatermarks" fullname="EasyResources.Tests.ResourceEdgeCaseTests.InvalidAuthoritySnapshotCannotReplaceMoneyOrReplayWatermarks" methodname="InvalidAuthoritySnapshotCannotReplaceMoneyOrReplayWatermarks" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1935266260" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.004894" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="MigrationAlsoConvertsFrozenOperationRowsWithoutMutatingOriginal" fullname="EasyResources.Tests.ResourceEdgeCaseTests.MigrationAlsoConvertsFrozenOperationRowsWithoutMutatingOriginal" methodname="MigrationAlsoConvertsFrozenOperationRowsWithoutMutatingOriginal" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1189670548" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000767" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="OfflineProductionCatchupRespectsCompletionBudget" fullname="EasyResources.Tests.ResourceEdgeCaseTests.OfflineProductionCatchupRespectsCompletionBudget" methodname="OfflineProductionCatchupRespectsCompletionBudget" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="278317263" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.006204" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="ReplicaRejectsReservedBalanceWithoutReservationsAndCanRetryInitialSnapshot" fullname="EasyResources.Tests.ResourceEdgeCaseTests.ReplicaRejectsReservedBalanceWithoutReservationsAndCanRetryInitialSnapshot" methodname="ReplicaRejectsReservedBalanceWithoutReservationsAndCanRetryInitialSnapshot" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="428226222" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.003298" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="SingleStoreFastPathsMatchGeneralTransactionsAcrossRandomFailuresAndHolds" fullname="EasyResources.Tests.ResourceEdgeCaseTests.SingleStoreFastPathsMatchGeneralTransactionsAcrossRandomFailuresAndHolds" methodname="SingleStoreFastPathsMatchGeneralTransactionsAcrossRandomFailuresAndHolds" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1314629393" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.010631" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="ZeroBigCapacityIsExplicitAndExpiredBigHoldsAreNotCreated" fullname="EasyResources.Tests.ResourceEdgeCaseTests.ZeroBigCapacityIsExplicitAndExpiredBigHoldsAreNotCreated" methodname="ZeroBigCapacityIsExplicitAndExpiredBigHoldsAreNotCreated" classname="EasyResources.Tests.ResourceEdgeCaseTests" runstate="Runnable" seed="1103551668" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.006631" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1031" name="ResourceIdentityTests" fullname="EasyResources.Tests.ResourceIdentityTests" classname="EasyResources.Tests.ResourceIdentityTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.265276" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1032" name="AssetRenameMoveAndReloadPreserveIdAndCopyReportsDuplicate" fullname="EasyResources.Tests.ResourceIdentityTests.AssetRenameMoveAndReloadPreserveIdAndCopyReportsDuplicate" methodname="AssetRenameMoveAndReloadPreserveIdAndCopyReportsDuplicate" classname="EasyResources.Tests.ResourceIdentityTests" runstate="Runnable" seed="426637129" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.264828" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1033" name="ResourceLargeNumberTests" fullname="EasyResources.Tests.ResourceLargeNumberTests" classname="EasyResources.Tests.ResourceLargeNumberTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.015723" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1034" name="ExactLargeQuantitiesReserveCommitTransferAndRoundTrip" fullname="EasyResources.Tests.ResourceLargeNumberTests.ExactLargeQuantitiesReserveCommitTransferAndRoundTrip" methodname="ExactLargeQuantitiesReserveCommitTransferAndRoundTrip" classname="EasyResources.Tests.ResourceLargeNumberTests" runstate="Runnable" seed="343049967" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.011823" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1035" name="LargeBridgeDoesNotLoseFundsOnOrdinaryCapacityFailure" fullname="EasyResources.Tests.ResourceLargeNumberTests.LargeBridgeDoesNotLoseFundsOnOrdinaryCapacityFailure" methodname="LargeBridgeDoesNotLoseFundsOnOrdinaryCapacityFailure" classname="EasyResources.Tests.ResourceLargeNumberTests" runstate="Runnable" seed="129200473" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001305" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1037" name="LargeCapacityFailureRollsBackBothSides" fullname="EasyResources.Tests.ResourceLargeNumberTests.LargeCapacityFailureRollsBackBothSides" methodname="LargeCapacityFailureRollsBackBothSides" classname="EasyResources.Tests.ResourceLargeNumberTests" runstate="Runnable" seed="590127284" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000552" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1036" name="LargeMalformedSnapshotAndOverheldStateAreRejected" fullname="EasyResources.Tests.ResourceLargeNumberTests.LargeMalformedSnapshotAndOverheldStateAreRejected" methodname="LargeMalformedSnapshotAndOverheldStateAreRejected" classname="EasyResources.Tests.ResourceLargeNumberTests" runstate="Runnable" seed="403573181" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000817" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1038" name="ResourceModuleTests" fullname="EasyResources.Tests.ResourceModuleTests" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" testcasecount="16" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.034559" total="16" passed="16" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1049" name="CreditDebtAndMoneyPublishTogetherAndInterestIsExplicit" fullname="EasyResources.Tests.ResourceModuleTests.CreditDebtAndMoneyPublishTogetherAndInterestIsExplicit" methodname="CreditDebtAndMoneyPublishTogetherAndInterestIsExplicit" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="2088182204" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.002253" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="DeliveryCapacityFailureKeepsCargoAndArrivalIsIdempotent" fullname="EasyResources.Tests.ResourceModuleTests.DeliveryCapacityFailureKeepsCargoAndArrivalIsIdempotent" methodname="DeliveryCapacityFailureKeepsCargoAndArrivalIsIdempotent" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="1157191259" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001755" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="DeliveryRestoresWithNamedReservation" fullname="EasyResources.Tests.ResourceModuleTests.DeliveryRestoresWithNamedReservation" methodname="DeliveryRestoresWithNamedReservation" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="927981046" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001141" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1043" name="FlowConsumesFuelAndProducesAtomicallyWithExactRemainders" fullname="EasyResources.Tests.ResourceModuleTests.FlowConsumesFuelAndProducesAtomicallyWithExactRemainders" methodname="FlowConsumesFuelAndProducesAtomicallyWithExactRemainders" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="37596983" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000916" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="FlowRestoreContinuesFractionWithoutDrift" fullname="EasyResources.Tests.ResourceModuleTests.FlowRestoreContinuesFractionWithoutDrift" methodname="FlowRestoreContinuesFractionWithoutDrift" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="990978715" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.005228" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="InventoryCraftCapacityFailureDoesNotSpendAndSuccessPublishesBoth" fullname="EasyResources.Tests.ResourceModuleTests.InventoryCraftCapacityFailureDoesNotSpendAndSuccessPublishesBoth" methodname="InventoryCraftCapacityFailureDoesNotSpendAndSuccessPublishesBoth" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="593229272" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.003790" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1053" name="InventoryQualityExpiryAndSavedOfflineTimeRemainExplicit" fullname="EasyResources.Tests.ResourceModuleTests.InventoryQualityExpiryAndSavedOfflineTimeRemainExplicit" methodname="InventoryQualityExpiryAndSavedOfflineTimeRemainExplicit" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="77100222" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.002996" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1050" name="InventoryStacksCompatibleItemsAndPartialAcceptanceReportsExactCount" fullname="EasyResources.Tests.ResourceModuleTests.InventoryStacksCompatibleItemsAndPartialAcceptanceReportsExactCount" methodname="InventoryStacksCompatibleItemsAndPartialAcceptanceReportsExactCount" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="628803006" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001000" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1052" name="InventoryUniqueTransferPreservesIdentityConditionAndAtomicFailure" fullname="EasyResources.Tests.ResourceModuleTests.InventoryUniqueTransferPreservesIdentityConditionAndAtomicFailure" methodname="InventoryUniqueTransferPreservesIdentityConditionAndAtomicFailure" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="362291351" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001559" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="InventoryWeightAndAllowedDefinitionsConstrainAcceptance" fullname="EasyResources.Tests.ResourceModuleTests.InventoryWeightAndAllowedDefinitionsConstrainAcceptance" methodname="InventoryWeightAndAllowedDefinitionsConstrainAcceptance" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="60315052" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000651" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1039" name="ProductionBlocksWithoutSpendingAndPublishesCompletedQueueWithBalances" fullname="EasyResources.Tests.ResourceModuleTests.ProductionBlocksWithoutSpendingAndPublishesCompletedQueueWithBalances" methodname="ProductionBlocksWithoutSpendingAndPublishesCompletedQueueWithBalances" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="619667511" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000987" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="ProductionCatchupIsBoundedAndPausePreservesRemainingTime" fullname="EasyResources.Tests.ResourceModuleTests.ProductionCatchupIsBoundedAndPausePreservesRemainingTime" methodname="ProductionCatchupIsBoundedAndPausePreservesRemainingTime" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="1052507429" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000824" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1042" name="ProductionRejectsExternallyResizedPayment" fullname="EasyResources.Tests.ResourceModuleTests.ProductionRejectsExternallyResizedPayment" methodname="ProductionRejectsExternallyResizedPayment" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="1334460534" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001335" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="ProductionSnapshotRebindsHeldPaymentAndFrozenRecipe" fullname="EasyResources.Tests.ResourceModuleTests.ProductionSnapshotRebindsHeldPaymentAndFrozenRecipe" methodname="ProductionSnapshotRebindsHeldPaymentAndFrozenRecipe" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="1331542927" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000874" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="TradeCapacityAndStalePriceCannotChargeBuyer" fullname="EasyResources.Tests.ResourceModuleTests.TradeCapacityAndStalePriceCannotChargeBuyer" methodname="TradeCapacityAndStalePriceCannotChargeBuyer" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="569518898" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.004163" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="TradeChargesQuotedTaxesAndFeesAndConservesBalances" fullname="EasyResources.Tests.ResourceModuleTests.TradeChargesQuotedTaxesAndFeesAndConservesBalances" methodname="TradeChargesQuotedTaxesAndFeesAndConservesBalances" classname="EasyResources.Tests.ResourceModuleTests" runstate="Runnable" seed="99018740" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001593" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1055" name="ResourceNetworkTests" fullname="EasyResources.Tests.ResourceNetworkTests" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" testcasecount="9" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.009101" total="9" passed="9" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1056" name="AuthorityAuthenticatesActorAndRepeatedCommandCannotSpendTwice" fullname="EasyResources.Tests.ResourceNetworkTests.AuthorityAuthenticatesActorAndRepeatedCommandCannotSpendTwice" methodname="AuthorityAuthenticatesActorAndRepeatedCommandCannotSpendTwice" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="797310677" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000915" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1057" name="EvictedAndRestoredCommandWatermarksStillPreventReplay" fullname="EasyResources.Tests.ResourceNetworkTests.EvictedAndRestoredCommandWatermarksStillPreventReplay" methodname="EvictedAndRestoredCommandWatermarksStillPreventReplay" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="849221286" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000562" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1058" name="FailedAndStaleCommandsConsumeSequenceButGapsDoNot" fullname="EasyResources.Tests.ResourceNetworkTests.FailedAndStaleCommandsConsumeSequenceButGapsDoNot" methodname="FailedAndStaleCommandsConsumeSequenceButGapsDoNot" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="798743102" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000544" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1062" name="HistoryGapFallsBackToFullAndClientCannotMutateItsReplica" fullname="EasyResources.Tests.ResourceNetworkTests.HistoryGapFallsBackToFullAndClientCannotMutateItsReplica" methodname="HistoryGapFallsBackToFullAndClientCannotMutateItsReplica" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="1883875506" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000771" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1059" name="IncomingTransferPolicyProtectsForeignStores" fullname="EasyResources.Tests.ResourceNetworkTests.IncomingTransferPolicyProtectsForeignStores" methodname="IncomingTransferPolicyProtectsForeignStores" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="1958965662" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000443" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1063" name="InvalidPacketDoesNotPartiallyApplyOrAdvanceRevision" fullname="EasyResources.Tests.ResourceNetworkTests.InvalidPacketDoesNotPartiallyApplyOrAdvanceRevision" methodname="InvalidPacketDoesNotPartiallyApplyOrAdvanceRevision" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="1548753924" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.002285" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="PacketDeltasIncludeReservationsAndZeroBalancesAndRejectOutOfOrder" fullname="EasyResources.Tests.ResourceNetworkTests.PacketDeltasIncludeReservationsAndZeroBalancesAndRejectOutOfOrder" methodname="PacketDeltasIncludeReservationsAndZeroBalancesAndRejectOutOfOrder" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="2117135855" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000799" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1064" name="ReopeningAuthenticatedSessionInvalidatesOldCommands" fullname="EasyResources.Tests.ResourceNetworkTests.ReopeningAuthenticatedSessionInvalidatesOldCommands" methodname="ReopeningAuthenticatedSessionInvalidatesOldCommands" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="1450399298" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000375" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="ServerOwnedActionBuildsItsPriceAndCaptureInsideCallbackIsConsistent" fullname="EasyResources.Tests.ResourceNetworkTests.ServerOwnedActionBuildsItsPriceAndCaptureInsideCallbackIsConsistent" methodname="ServerOwnedActionBuildsItsPriceAndCaptureInsideCallbackIsConsistent" classname="EasyResources.Tests.ResourceNetworkTests" runstate="Runnable" seed="813401971" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000965" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="ResourceProgressionTests" fullname="EasyResources.Tests.ResourceProgressionTests" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" testcasecount="5" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.014214" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1067" name="ExclusiveBranchesAndPrestigeUseOneAtomicOperation" fullname="EasyResources.Tests.ResourceProgressionTests.ExclusiveBranchesAndPrestigeUseOneAtomicOperation" methodname="ExclusiveBranchesAndPrestigeUseOneAtomicOperation" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" seed="956707515" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.006955" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1070" name="InvalidGraphAndXpOverflowLeaveExistingStateIntact" fullname="EasyResources.Tests.ResourceProgressionTests.InvalidGraphAndXpOverflowLeaveExistingStateIntact" methodname="InvalidGraphAndXpOverflowLeaveExistingStateIntact" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" seed="1321782943" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001082" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="LevelsPrerequisitesRanksAndModifiersAreConsistentDuringPaymentEvents" fullname="EasyResources.Tests.ResourceProgressionTests.LevelsPrerequisitesRanksAndModifiersAreConsistentDuringPaymentEvents" methodname="LevelsPrerequisitesRanksAndModifiersAreConsistentDuringPaymentEvents" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" seed="2069237523" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001755" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1069" name="ResearchCancelReleasesInputsAndAllowsAnotherOperation" fullname="EasyResources.Tests.ResourceProgressionTests.ResearchCancelReleasesInputsAndAllowsAnotherOperation" methodname="ResearchCancelReleasesInputsAndAllowsAnotherOperation" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" seed="663829721" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000994" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="ResearchRestoreConsumesOnlyItsOwnedPaymentAfterRemainingDuration" fullname="EasyResources.Tests.ResourceProgressionTests.ResearchRestoreConsumesOnlyItsOwnedPaymentAfterRemainingDuration" methodname="ResearchRestoreConsumesOnlyItsOwnedPaymentAfterRemainingDuration" classname="EasyResources.Tests.ResourceProgressionTests" runstate="Runnable" seed="1551110856" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.002452" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1071" name="ResourceStoreTests" fullname="EasyResources.Tests.ResourceStoreTests" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" testcasecount="34" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.105406" total="34" passed="34" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1085" name="ActiveReservationBlocksCaptureAndRestoreWithoutCancellingIt" fullname="EasyResources.Tests.ResourceStoreTests.ActiveReservationBlocksCaptureAndRestoreWithoutCancellingIt" methodname="ActiveReservationBlocksCaptureAndRestoreWithoutCancellingIt" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1975587790" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001527" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1104" name="CallsFromAnotherThreadAreRejected" fullname="EasyResources.Tests.ResourceStoreTests.CallsFromAnotherThreadAreRejected" methodname="CallsFromAnotherThreadAreRejected" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1162246601" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001587" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1083" name="CancelAndDisposeReleaseOnlyTheirReservation" fullname="EasyResources.Tests.ResourceStoreTests.CancelAndDisposeReleaseOnlyTheirReservation" methodname="CancelAndDisposeReleaseOnlyTheirReservation" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="340346058" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000479" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1105" name="CapacityGrowthAndOldHandlesCannotCorruptNewReservations" fullname="EasyResources.Tests.ResourceStoreTests.CapacityGrowthAndOldHandlesCannotCorruptNewReservations" methodname="CapacityGrowthAndOldHandlesCannotCorruptNewReservations" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1380882059" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.013921" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1081" name="CompletedHandleIsAlsoSafeInsideItsCompletionEvent" fullname="EasyResources.Tests.ResourceStoreTests.CompletedHandleIsAlsoSafeInsideItsCompletionEvent" methodname="CompletedHandleIsAlsoSafeInsideItsCompletionEvent" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="628501270" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000443" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1073" name="CompoundSpendUpdatesEveryResourceBeforeOneEvent" fullname="EasyResources.Tests.ResourceStoreTests.CompoundSpendUpdatesEveryResourceBeforeOneEvent" methodname="CompoundSpendUpdatesEveryResourceBeforeOneEvent" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="2027468570" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000407" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1080" name="CopiedReservationCommitsExactlyOnce" fullname="EasyResources.Tests.ResourceStoreTests.CopiedReservationCommitsExactlyOnce" methodname="CopiedReservationCommitsExactlyOnce" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="710086167" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000350" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1082" name="CostCopiesCallerArrayAndActiveReservationKeepsItsCost" fullname="EasyResources.Tests.ResourceStoreTests.CostCopiesCallerArrayAndActiveReservationKeepsItsCost" methodname="CostCopiesCallerArrayAndActiveReservationKeepsItsCost" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1319814482" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000408" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1084" name="DefaultAndDisposedOwnerHandlesAreSafe" fullname="EasyResources.Tests.ResourceStoreTests.DefaultAndDisposedOwnerHandlesAreSafe" methodname="DefaultAndDisposedOwnerHandlesAreSafe" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="414467370" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000509" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1097" name="DuplicateDefinitionIdsAreRejectedAtAllEntryPoints" fullname="EasyResources.Tests.ResourceStoreTests.DuplicateDefinitionIdsAreRejectedAtAllEntryPoints" methodname="DuplicateDefinitionIdsAreRejectedAtAllEntryPoints" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="658043358" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000703" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1077" name="DuplicateRowsAreSummedBeforeAffordabilityCheck" fullname="EasyResources.Tests.ResourceStoreTests.DuplicateRowsAreSummedBeforeAffordabilityCheck" methodname="DuplicateRowsAreSummedBeforeAffordabilityCheck" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="932200423" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000334" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1096" name="DuplicateSavedIdsAreRejectedEvenWhenUnknownIdsAreIgnored" fullname="EasyResources.Tests.ResourceStoreTests.DuplicateSavedIdsAreRejectedEvenWhenUnknownIdsAreIgnored" methodname="DuplicateSavedIdsAreRejectedEvenWhenUnknownIdsAreIgnored" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1532125929" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000523" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1099" name="EmptyCostSucceedsWithoutSpendingAndItsReservationStillRequiresCompletion" fullname="EasyResources.Tests.ResourceStoreTests.EmptyCostSucceedsWithoutSpendingAndItsReservationStillRequiresCompletion" methodname="EmptyCostSucceedsWithoutSpendingAndItsReservationStillRequiresCompletion" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="916926208" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000487" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1100" name="EventReentryIsRejectedAndAllObserversSeeTheSameCommittedState" fullname="EasyResources.Tests.ResourceStoreTests.EventReentryIsRejectedAndAllObserversSeeTheSameCommittedState" methodname="EventReentryIsRejectedAndAllObserversSeeTheSameCommittedState" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1853215669" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000895" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1076" name="InsufficientOneRowDoesNotChangeAnyBalanceOrNotify" fullname="EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001231" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1074" name="InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(11,1)" fullname="EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(11,1)" methodname="InsufficientOneRowDoesNotChangeAnyBalanceOrNotify" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1879071463" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000657" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1075" name="InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(1,6)" fullname="EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(1,6)" methodname="InsufficientOneRowDoesNotChangeAnyBalanceOrNotify" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1135118612" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000178" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="1095" name="MalformedSavedRowIsRejected" fullname="EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001282" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1092" name="MalformedSavedRowIsRejected(&quot;wood&quot;,-1)" fullname="EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(&quot;wood&quot;,-1)" methodname="MalformedSavedRowIsRejected" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="77759417" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000566" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1093" name="MalformedSavedRowIsRejected(&quot;&quot;,2)" fullname="EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(&quot;&quot;,2)" methodname="MalformedSavedRowIsRejected" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="739866448" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000187" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1094" name="MalformedSavedRowIsRejected(null,2)" fullname="EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(null,2)" methodname="MalformedSavedRowIsRejected" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1738242692" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000164" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1106" name="ManyContainersAndCostsRemainIndependent" fullname="EasyResources.Tests.ResourceStoreTests.ManyContainersAndCostsRemainIndependent" methodname="ManyContainersAndCostsRemainIndependent" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1321157058" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.003444" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1098" name="NegativeNullAndOverflowInputsDoNotMutateBalances" fullname="EasyResources.Tests.ResourceStoreTests.NegativeNullAndOverflowInputsDoNotMutateBalances" methodname="NegativeNullAndOverflowInputsDoNotMutateBalances" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1170233392" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000978" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1108" name="RandomOperationsMatchIndependentBalanceModel" fullname="EasyResources.Tests.ResourceStoreTests.RandomOperationsMatchIndependentBalanceModel" methodname="RandomOperationsMatchIndependentBalanceModel" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1338176353" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.043504" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1079" name="ReservationAndRestoreEventsExposeWholeTransactions" fullname="EasyResources.Tests.ResourceStoreTests.ReservationAndRestoreEventsExposeWholeTransactions" methodname="ReservationAndRestoreEventsExposeWholeTransactions" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="940801137" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001465" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1101" name="ReservationEventCannotCancelAnotherReservationDuringNotification" fullname="EasyResources.Tests.ResourceStoreTests.ReservationEventCannotCancelAnotherReservationDuringNotification" methodname="ReservationEventCannotCancelAnotherReservationDuringNotification" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1526967704" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000532" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1072" name="SharedDefinitionsDoNotShareBalances" fullname="EasyResources.Tests.ResourceStoreTests.SharedDefinitionsDoNotShareBalances" methodname="SharedDefinitionsDoNotShareBalances" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1352626515" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000374" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1086" name="SnapshotRoundTripUsesIdsAndCopiesData" fullname="EasyResources.Tests.ResourceStoreTests.SnapshotRoundTripUsesIdsAndCopiesData" methodname="SnapshotRoundTripUsesIdsAndCopiesData" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1375456968" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001197" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1103" name="SubscriptionChangesTakeEffectOnNextNotification" fullname="EasyResources.Tests.ResourceStoreTests.SubscriptionChangesTakeEffectOnNextNotification" methodname="SubscriptionChangesTakeEffectOnNextNotification" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="2044191062" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000472" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1102" name="ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult" fullname="EasyResources.Tests.ResourceStoreTests.ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult" methodname="ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1184957488" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.007000" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[InvalidOperationException: Expected observer failure
+EasyResources.Tests.ResourceStoreTests+<>c.<ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult>b__29_0 () (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Tests/EditMode/ResourceStoreTests.cs:354)
+EasyResources.ResourceStore.Publish () (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/ResourceStore.cs:895)
+UnityEngine.Debug:LogException(Exception)
+EasyResources.SafeSignal:Log(Exception) (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/SafeSignal.cs:46)
+EasyResources.ResourceStore:Publish() (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/ResourceStore.cs:899)
+EasyResources.ResourceStore:SpendSingle(ResourceCost, ResourceFailure&, ResourceOperationContext) (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/ResourceStore.SingleOperations.cs:125)
+EasyResources.ResourceStore:TrySpend(ResourceCost, ResourceFailure&, ResourceOperationContext) (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/ResourceStore.cs:338)
+EasyResources.ResourceStore:TrySpend(ResourceCost) (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Runtime/ResourceStore.cs:334)
+EasyResources.Tests.ResourceStoreTests:ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult() (at C:/Users/LeshaPC/Games Factory/Temp/EasyResourcesV2/NoUIPackage/Tests/EditMode/ResourceStoreTests.cs:357)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo, Object, Object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke(Object, Object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod(ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute(ITestExecutionContext)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions()
+
+]]></output>
+            </test-case>
+            <test-case id="1078" name="TwoConsumersCannotSpendReservedUnits" fullname="EasyResources.Tests.ResourceStoreTests.TwoConsumersCannotSpendReservedUnits" methodname="TwoConsumersCannotSpendReservedUnits" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="173627590" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000622" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1087" name="UnknownIdRejectsWholeRestoreByDefault" fullname="EasyResources.Tests.ResourceStoreTests.UnknownIdRejectsWholeRestoreByDefault" methodname="UnknownIdRejectsWholeRestoreByDefault" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="454651433" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000691" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-suite type="ParameterizedMethod" id="1091" name="UnsupportedVersionIsRejectedAtomically" fullname="EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.001466" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+              <properties />
+              <test-case id="1088" name="UnsupportedVersionIsRejectedAtomically(-1)" fullname="EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(-1)" methodname="UnsupportedVersionIsRejectedAtomically" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="818554323" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000664" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1089" name="UnsupportedVersionIsRejectedAtomically(0)" fullname="EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(0)" methodname="UnsupportedVersionIsRejectedAtomically" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="2105335560" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000197" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+              <test-case id="1090" name="UnsupportedVersionIsRejectedAtomically(3)" fullname="EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(3)" methodname="UnsupportedVersionIsRejectedAtomically" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="2061939668" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.000163" asserts="0">
+                <properties>
+                  <property name="retryIteration" value="0" />
+                  <property name="repeatIteration" value="0" />
+                </properties>
+              </test-case>
+            </test-suite>
+            <test-case id="1107" name="WarmFrequentOperationsAllocateNoManagedMemory" fullname="EasyResources.Tests.ResourceStoreTests.WarmFrequentOperationsAllocateNoManagedMemory" methodname="WarmFrequentOperationsAllocateNoManagedMemory" classname="EasyResources.Tests.ResourceStoreTests" runstate="Runnable" seed="1413616188" result="Passed" start-time="2026-11-11 22:58:48Z" end-time="2026-11-11 22:58:48Z" duration="0.014835" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: C:\Users\LeshaPC\Games Factory\Temp\EasyResourcesV2\no-ui-tests.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

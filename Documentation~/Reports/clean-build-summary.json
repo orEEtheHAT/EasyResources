@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "buildId": "build_4e547be0d3d4",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/LeshaPC/Games Factory/Builds/EasyResourcesClean/ResourceBenchmark.exe",
+  "buildTimeMs": 4386,
+  "totalSizeBytes": 148499989,
+  "buildStartedAt": "2026-11-11T16:00:38.5908985Z",
+  "buildEndedAt": "2026-11-11T16:00:42.9775843Z",
+  "totalWarnings": 0,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": []
+}

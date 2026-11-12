@@ -1,0 +1,60 @@
+{
+  "dateUtc": "2026-11-12T18:24:45.1983785Z",
+  "status": "FINAL",
+  "package": "com.oreethehat.easy-resources",
+  "version": "0.2.0",
+  "versionChanged": false,
+  "compile": {
+    "status": "completed",
+    "failed": false,
+    "errors": [],
+    "compilationFailed": false
+  },
+  "sharedEditMode": {
+    "failed": 0,
+    "total": 118,
+    "source": "final-editmode.json",
+    "passed": 118
+  },
+  "sharedPlayMode": {
+    "failed": 0,
+    "total": 10,
+    "sources": [
+      "final-playmode.json: 9 core/lifecycle",
+      "final-playmode-ui.json: 1 UI Toolkit"
+    ],
+    "passed": 10
+  },
+  "standalone": {
+    "basics": 13,
+    "sourceReports": [
+      "clean-editmode-final.json",
+      "clean-playmode.json",
+      "clean-basics-result.json"
+    ],
+    "playMode": 10,
+    "editMode": 118
+  },
+  "developmentPlayer": {
+    "allWarmedAllocationEvents": 0,
+    "backend": "Mono",
+    "positiveControlSucceeded": true,
+    "buildErrors": 0,
+    "source": "notifications-player.json",
+    "scenarios": 4,
+    "buildWarnings": 0,
+    "platform": "StandaloneWindows64",
+    "exitCode": 0,
+    "buildSucceeded": true
+  },
+  "sharedEditorRestored": {
+    "scene": "Assets/PackageTests/EasySuite/EasySuiteLab.unity",
+    "isDirty": false,
+    "playMode": "stopped",
+    "runInBackground": true,
+    "autoRefresh": "enabled"
+  },
+  "sharedLeaseReleased": true,
+  "outstandingOwnWork": [],
+  "runtimeChangesDuringFinalization": false
+}

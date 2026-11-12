@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "failed": false,
+      "errors": [],
+      "compilationFailed": false
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Audits\\EasyResources\\IntegrationWave1\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

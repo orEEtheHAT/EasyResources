@@ -1,0 +1,273 @@
+{
+  "success": true,
+  "command": "command test",
+  "data": {
+    "command": "test",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 1.75,
+      "summary": {
+        "total": 35,
+        "passed": 35,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "EasyResources.Tests.ResourceIdentityTests.AssetRenameMoveAndReloadPreserveIdAndCopyReportsDuplicate",
+          "Status": "Passed",
+          "Duration": 1.1932603,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ActiveReservationBlocksCaptureAndRestoreWithoutCancellingIt",
+          "Status": "Passed",
+          "Duration": 0.0298949,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CallsFromAnotherThreadAreRejected",
+          "Status": "Passed",
+          "Duration": 0.0047232,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CancelAndDisposeReleaseOnlyTheirReservation",
+          "Status": "Passed",
+          "Duration": 0.0032422,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CapacityGrowthAndOldHandlesCannotCorruptNewReservations",
+          "Status": "Passed",
+          "Duration": 0.0106711,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CompletedHandleIsAlsoSafeInsideItsCompletionEvent",
+          "Status": "Passed",
+          "Duration": 0.0011961,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CompoundSpendUpdatesEveryResourceBeforeOneEvent",
+          "Status": "Passed",
+          "Duration": 0.001063,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CopiedReservationCommitsExactlyOnce",
+          "Status": "Passed",
+          "Duration": 0.0003821,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.CostCopiesCallerArrayAndActiveReservationKeepsItsCost",
+          "Status": "Passed",
+          "Duration": 0.0003877,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DefaultAndDisposedOwnerHandlesAreSafe",
+          "Status": "Passed",
+          "Duration": 0.0007713,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateDefinitionIdsAreRejectedAtAllEntryPoints",
+          "Status": "Passed",
+          "Duration": 0.0020464,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateRowsAreSummedBeforeAffordabilityCheck",
+          "Status": "Passed",
+          "Duration": 0.000748,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.DuplicateSavedIdsAreRejectedEvenWhenUnknownIdsAreIgnored",
+          "Status": "Passed",
+          "Duration": 0.0011149,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.EmptyCostSucceedsWithoutSpendingAndItsReservationStillRequiresCompletion",
+          "Status": "Passed",
+          "Duration": 0.0006405,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.EventReentryIsRejectedAndAllObserversSeeTheSameCommittedState",
+          "Status": "Passed",
+          "Duration": 0.0021121,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(11,1)",
+          "Status": "Passed",
+          "Duration": 0.0007054,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.InsufficientOneRowDoesNotChangeAnyBalanceOrNotify(1,6)",
+          "Status": "Passed",
+          "Duration": 0.0001764,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(\"wood\",-1)",
+          "Status": "Passed",
+          "Duration": 0.0012171,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(\"\",2)",
+          "Status": "Passed",
+          "Duration": 0.0003748,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.MalformedSavedRowIsRejected(null,2)",
+          "Status": "Passed",
+          "Duration": 0.0003459,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ManyContainersAndCostsRemainIndependent",
+          "Status": "Passed",
+          "Duration": 0.0024765,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.NegativeNullAndOverflowInputsDoNotMutateBalances",
+          "Status": "Passed",
+          "Duration": 0.0013666,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.RandomOperationsMatchIndependentBalanceModel",
+          "Status": "Passed",
+          "Duration": 0.0559798,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ReservationAndRestoreEventsExposeWholeTransactions",
+          "Status": "Passed",
+          "Duration": 0.0024457,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ReservationEventCannotCancelAnotherReservationDuringNotification",
+          "Status": "Passed",
+          "Duration": 0.0009666,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SharedDefinitionsDoNotShareBalances",
+          "Status": "Passed",
+          "Duration": 0.0004868,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SnapshotRoundTripUsesIdsAndCopiesData",
+          "Status": "Passed",
+          "Duration": 0.002768,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.SubscriptionChangesTakeEffectOnNextNotification",
+          "Status": "Passed",
+          "Duration": 0.0009064,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.ThrowingObserverDoesNotHideLaterObserversOrChangeTransactionResult",
+          "Status": "Passed",
+          "Duration": 0.0094822,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.TwoConsumersCannotSpendReservedUnits",
+          "Status": "Passed",
+          "Duration": 0.0010714,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnknownIdRejectsWholeRestoreByDefault",
+          "Status": "Passed",
+          "Duration": 0.0015635,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(-1)",
+          "Status": "Passed",
+          "Duration": 0.0011608,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(0)",
+          "Status": "Passed",
+          "Duration": 0.0003665,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.UnsupportedVersionIsRejectedAtomically(2)",
+          "Status": "Passed",
+          "Duration": 0.0003329,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceStoreTests.WarmFrequentOperationsAllocateNoManagedMemory",
+          "Status": "Passed",
+          "Duration": 0.0126582,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

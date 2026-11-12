@@ -1,0 +1,587 @@
+[
+  {
+    "path": "Runtime\\AssemblyInfo.cs",
+    "sha256": "62D62CE62F0B406393C0AB190517AED4DD58F60C34C462DBAB270C13BBDC1832",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\AssemblyInfo.cs.meta",
+    "sha256": "AD744E8DA43488755B0B52B4774675037C4F3AB7EAC6FBC9DABEC8774FC9F130",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\DefinitionAsset.cs",
+    "sha256": "2AE3A10F6DFF62F1422BFA2E46A07C40031D716C7AD4F196419AB450885242A6",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\DefinitionAsset.cs.meta",
+    "sha256": "89B4DEB93FD0DD19FE517277B387C02661E59AD48C4F3A107CCBFFC6ABA69EEC",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\DefinitionLookup.cs",
+    "sha256": "A772DD60C423CED8D8D80877E7905CCF9A3BF3373EBB9618AFC5C1FE3A37581C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\DefinitionLookup.cs.meta",
+    "sha256": "AAB12764E8C2D5C96B9F5B0A753E691D6018BE11A602CD2A6BABEEE16FDF5C1A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\EasyResources.Runtime.asmdef",
+    "sha256": "CA5953ED9B8563EF61E46F65075AADE805A7995668BF75D42F4C6ED2537684F4",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\EasyResources.Runtime.asmdef.meta",
+    "sha256": "ED9A3233880964557F6EE7BFE6CE2A5C5924A520695AF04B78D2D52B6F8C34E5",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory.meta",
+    "sha256": "0E4F3957B6FCE2D1FC62FB58E3444252674F915ED156146DCF74F4EBC2DB76B0",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\LargeNumbers.meta",
+    "sha256": "53BF57AB50EAC346C0AB1B23D6FF4DFB564BD82B745BD2133AED7A4D0192C184",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking.meta",
+    "sha256": "F49C368B6D4D6C2670565B45F76C52D046BB379D081A922FB3AD5DB9E3C1520D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production.meta",
+    "sha256": "E35F177A62BE50D59E2A1ACEE5B80E7CEA76855780D1BDD1D131644EF9060D9D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression.meta",
+    "sha256": "BE2696EB56B0D0B0335CC2F63B0CB5BA843DDEAC3E8EF4EF5BB19E4550904E1D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\QuantityMath.cs",
+    "sha256": "CDD5B7BD2242F3A73BDE7AD855161AF0EA8E96DF4CEC6285D7F9229B709A5B6B",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\QuantityMath.cs.meta",
+    "sha256": "8721B4C4695F9150BA029802616EDEA71AAD3CE4C5BC145F132F0BF324DD6A57",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceAmount.cs",
+    "sha256": "4A2825951D9169B34648052D3087C99413E21E25325F82B37D3C4A4162BCFE1A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceAmount.cs.meta",
+    "sha256": "3DCE8EEBEA57AE126CD6B840D5160757478B6A1BABF4D0CE2D7EB1B2A1F378B6",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceBatch.cs",
+    "sha256": "EA1B330C9E7CFDD77AE5381B12C592AC99AEC0EDEF84967253DEC091F1B84DC2",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceBatch.cs.meta",
+    "sha256": "C0A125F324FBC615F7E95484449641126B3846103B6164356AC8091B77466163",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceContainer.cs",
+    "sha256": "A426119AFF44207B0B5E04A17F735A22895B935806BC911CCA3D630C6CAD7B41",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceContainer.cs.meta",
+    "sha256": "E24F1B73D6365D6B96417DAB47CD34058C50F56464349F589AF2C44CD530EEA7",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceContainerState.cs",
+    "sha256": "F26EE2AAFD0AC0FE83C46271790D4D393139CB25B961154D39EB32FBBC5E1190",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceContainerState.cs.meta",
+    "sha256": "A48427829359021580727AF9223481D93A2133301523C141F89FF3F56C0E02FF",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceCost.cs",
+    "sha256": "5592AEDB6F32F508B70F38FD994B02DA0A0CE6A2B0BC6ECE260C7CF061CD630E",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceCost.cs.meta",
+    "sha256": "0950EC928DB4148E950085305B9063EA4E9A508F3B532CF70B86C305EDCC9F5C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceCostAsset.cs",
+    "sha256": "E77E0E40FDAA4DE4135C8631034C434B35562A3CCE17A19EE4E04B2352310D3D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceCostAsset.cs.meta",
+    "sha256": "A67B5EE2F9613C5AACDD86ED2AE8FBAD8106CB2B20AB7BCF42582FB251F18160",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceDefinition.cs",
+    "sha256": "7EDF3F8236B39886437B4F5731659A1BD9CC151B01FA76289B4D0FA04FEFBAFE",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceDefinition.cs.meta",
+    "sha256": "0A855B02D95DB6D9EC45C2E6A64475D64A119BAD7BBF5A6D73F7C2FD2721B4CD",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceFailure.cs",
+    "sha256": "6F4EE67408CB6B50C3E749AD071DAE3857793178808B7082DF6F9CDB82A355B4",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceFailure.cs.meta",
+    "sha256": "DA690BDECB1B2C54E912D6863E96E22C7198CBBAA59991E6DDFCDA3F8A9F8DCB",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceLimits.cs",
+    "sha256": "9244C9668B6538B3FB3063EB98E2FBCB56D4731BCD702FBDCDAA01205CC356C4",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceLimits.cs.meta",
+    "sha256": "C81402BD8B651E4A53B243029F20DCE5A7E11750CFFB41EF08913A1D99B958C8",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceNotificationScope.cs",
+    "sha256": "9F6A2EF41991E3AE0DECAC53CCBA18860017646176E509E9AC32B60A686826FD",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceNotificationScope.cs.meta",
+    "sha256": "C7704565CEF992477207A23764BB0CFA763EB8739DD9AC2A53286994D3F463C7",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceReservation.cs",
+    "sha256": "CB226BFE3DDEA071FEC717614CF595B54991AE06CBA4520E3644B863E2A1656A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceReservation.cs.meta",
+    "sha256": "AE674D961E5EF92638DDE86AE3028A45CFFE8A2E1664DAE944172BB5A30428B2",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStateMigration.cs",
+    "sha256": "540AA7E17F7721C3A0A1764A54C5B509E990A372A5D814EA40383787D7B96195",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStateMigration.cs.meta",
+    "sha256": "5C61B98D957C40CDB18E652A184C47E8BE8B3DD6FF5BA0B59617C08A3FB7B7C0",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.cs",
+    "sha256": "3D880A7815B842E70DC8394F83F02264F4DF2BD2B34456313A6498E44C472DE1",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.cs.meta",
+    "sha256": "367CFE9BD5A26D9B1BCC3C1803AC254E0BF1267A3BAFDB0B346B6A656141DCDD",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Notifications.cs",
+    "sha256": "B55ED252916E9D77CA0ACEDDC541A3396677817BFCB115DAE83F23C580C1C9D6",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Notifications.cs.meta",
+    "sha256": "024B01760DB4FA02A27D3523B73A6888C70EB4A2D3BEB96D4A547CF5823437BB",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Persistence.cs",
+    "sha256": "78ABBF13CCA989F7C67B903950EB95B518B70FB155B563430B7AF6C005B256B0",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Persistence.cs.meta",
+    "sha256": "6BECE22922E5FB00E8D046216531CDAA8386D76D9964DAD4E8BBEEF714C699C5",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Replication.cs",
+    "sha256": "33FA04733A3BA436C4573F75BD78DD543B127FC211940DE750638429B474C90F",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.Replication.cs.meta",
+    "sha256": "CCD6423F6CF5425E82A6C83224A5382A99A5281D3788E6A9F86459AF30D42B9C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.SingleOperations.cs",
+    "sha256": "234774E6696E3322AF8DF3AB889D0636EAABB28554E58A26993D1103B7FF9E8D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceStore.SingleOperations.cs.meta",
+    "sha256": "F53574E228E86C110A1216DC1AB0DE64D1CD024C603DE27ED2008587221EE345",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceTransaction.cs",
+    "sha256": "7AF6455A4783942B33FF7E8FAED51DAD3E498FF4CD8117EFE74E7CE4E4335AA7",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\ResourceTransaction.cs.meta",
+    "sha256": "11AD131C8949E32F9A10A4B0C105045F6A149644F2BFC73C9341944BF259D1EC",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\SafeSignal.cs",
+    "sha256": "7D21D3236A569C91DC69C15DD13E325A1E8E7141CA7CC61E28BC08932C467DB5",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\SafeSignal.cs.meta",
+    "sha256": "662E2AAC662DACF47C001450E39FF57AC16B6A72843B2911D70626A15514F396",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\SnapshotRows.cs",
+    "sha256": "F6DA7C6734BC08E886DDF005492EFB92EB68B263BDFDBD49FA8F4AD255613ABD",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\SnapshotRows.cs.meta",
+    "sha256": "1F1425E8E209AEF2DAAF996ABEA37E97018BD639AEAF7F7C9C8AF08EBEBF9105",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading.meta",
+    "sha256": "792F1B3A44AD105014F322209E5C7049BDD5DB3B276334870CC34F16C4340916",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI.meta",
+    "sha256": "0AF6E991F57139C1D3C33FC4A4152035A76109417788A47DE65B44B49D12138A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\EasyResources.Inventory.asmdef",
+    "sha256": "B7EBA92AE4DF1AF5156BF25378AA6404D6017C8098A9F06BD1E6840B4458EA73",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\EasyResources.Inventory.asmdef.meta",
+    "sha256": "EF89869A517F05C64351B88A868A5BF34B634470923144F550662D853679052D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\InventoryContainer.cs",
+    "sha256": "1E2AAD8CDDA6FBD3FBC68270682B7F58DE59205241AA35B62B31633CBC3C11C8",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\InventoryContainer.cs.meta",
+    "sha256": "B16778DAFE6FDF76952E45811639F903DF7BD22334C5B78CE603E4ED705D247E",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\InventoryStore.cs",
+    "sha256": "82F0E5965A78D7F3193DFE6E0850D1187EBA533700AD1709CEDAC7A53AFC2B60",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\InventoryStore.cs.meta",
+    "sha256": "F33F81900B6838F72524EC1BCBFB86A81B8D93F69FEB2E615206DE6F1F3F0F92",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\ItemDefinition.cs",
+    "sha256": "3C182DC928E6DAF920D99AFB7F507F97243E39AD80385B900DC4475458CD426F",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Inventory\\ItemDefinition.cs.meta",
+    "sha256": "370BB2D2A9D146C064FD380A0ECBFFE653759A5F862568A46C3022EC4A36FEA5",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\LargeNumbers\\BigResourceStore.cs",
+    "sha256": "3957412178B264AB855A762B719062FA213747B2BA0810F1AD9628ACFCDBBE1C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\LargeNumbers\\BigResourceStore.cs.meta",
+    "sha256": "A674ED2202D0218F62EB94712C093C8D038BE5BA53BEF38AF87F59B6BA6C84B3",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\LargeNumbers\\EasyResources.LargeNumbers.asmdef",
+    "sha256": "E9B3B8A56DC2FB223B8F3C356EB8CF37500F0E72AE1B8C373D4C68A061A3230E",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\LargeNumbers\\EasyResources.LargeNumbers.asmdef.meta",
+    "sha256": "3EDE5848E3CC61C26880CD6728DB17482EBEDD30450FC0EF746FFFBF4C14642D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\EasyResources.Networking.asmdef",
+    "sha256": "CD48907AECD10DD479CD02079419618CAB5858F082D823B905E86271ADB52C07",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\EasyResources.Networking.asmdef.meta",
+    "sha256": "EBF598B9829F229D4A9F20963E15B15877F862168446D4BB21ED7538FCC2346C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\ResourceAuthority.cs",
+    "sha256": "6446B9191C8E0934765E97552B8B57C142F31E84FC827BE1FB7CAF1F6DEEEAB8",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\ResourceAuthority.cs.meta",
+    "sha256": "2AADFCFF27A5F88260B1D20391213753643D8EC63F9E59A07DBC32767B607992",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\ResourceReplication.cs",
+    "sha256": "5EFCFD2BCEBCDAA8DFE9A6D534FC0122CB653EE72EE45DAC0B0C84CE8EBB9451",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Networking\\ResourceReplication.cs.meta",
+    "sha256": "EE02EF779D80871D306419DD9C173F8C8C3A4FC2E0A7DB8C6989FE8B511092D6",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\EasyResources.Production.asmdef",
+    "sha256": "781845ADEC22E23A57591F191844E2E59468168DE2D3623FBF774BDD76978EA5",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\EasyResources.Production.asmdef.meta",
+    "sha256": "A5102C872C2A32D5BA30503371B50B417FB8E39AA12E8F4728281E3129E10CA2",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionQueue.cs",
+    "sha256": "C27F78CE9E69E3BA41DAC74D8AAA9A5EFC6D51B9530216EE66E53F399C35FD3C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionQueue.cs.meta",
+    "sha256": "0324DE2EE278049EF2A5CBCBCB14C960F5B7707A13572EB1F6006758D018C518",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionRecipe.cs",
+    "sha256": "FBB6A179D724216D1AE1D6AB3A401C2A3B77C51489C7834463C57EBAC170B9EC",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionRecipe.cs.meta",
+    "sha256": "9308375195DE1446A659D404A7139002A1E924708219E81A52B3F974590784F4",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionStation.cs",
+    "sha256": "C02B13DC908559011AFC2CCB06F07009F99FA8C6251254D27B6FE5741B1532D4",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ProductionStation.cs.meta",
+    "sha256": "598CC5A29800F8DB08FD2461D4E9438C5199D770370023964DFB9D56F35B71F1",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceDelivery.cs",
+    "sha256": "D879EDB37E43A7A0EE0D4E8EEC599DDA534E3A36D9132445A2554275A92C14B0",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceDelivery.cs.meta",
+    "sha256": "FE51AC999FC125E5606D8B410CA60678065A573B86D888781156E712925F87DC",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceFlow.cs",
+    "sha256": "70D26F9353965659865645DF85585B34BBAFA118EB41A97CB49535A2EC9F1DCD",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceFlow.cs.meta",
+    "sha256": "19DF200A5CD77BFE7544AD1B51D7A201BBC69E546F31703C971AF91614EA73C9",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceProducer.cs",
+    "sha256": "71023C47C9D88B89BAE2A08335DEB61C7895CCF031B4CDE621C7B60796D33858",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Production\\ResourceProducer.cs.meta",
+    "sha256": "4EA2C441CE9FDD5CDFF9374454ECBEA8070891AF2239E423850C0A5A04CD4D0D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\EasyResources.Progression.asmdef",
+    "sha256": "B774AAC8F39834FD7096A828E40EFD23B469499F20109D146BF099CBC9FCF943",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\EasyResources.Progression.asmdef.meta",
+    "sha256": "8D72494ACA9E70D15B0BA5A953E434EBA2812823743909E2A0C38C327F139511",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionComponent.cs",
+    "sha256": "B8411F88CF40D80F5024BAA1112DDF9FC5F30113F9909D9F90630447770158AC",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionComponent.cs.meta",
+    "sha256": "0530F7C764E1E1408D0E9A6B7A71C4F09E392A1C1691F3C3848FF8C2B776FC4A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionDefinition.cs",
+    "sha256": "FE0C6E47D3FEC28544AF3181A28A7A2E2F59E2CA3B52C0C8A74936594114915F",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionDefinition.cs.meta",
+    "sha256": "FAAF0D2F992294753F5A54888DCA3A98F2D5F1AFF4FB31F192B1D649DB73DC26",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionNode.cs",
+    "sha256": "5D07DBC10CE6E824F405CB856A62D9CA1D2C3BB7FD4E9DB7CCEE39B7F6B34E23",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionNode.cs.meta",
+    "sha256": "F3580DBD2E90C8DA70B964E8D7BF7925AB6B8C5F9A761EF7EE6A592D37C974C2",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionProfile.cs",
+    "sha256": "1E098B546E67221684D49F8CD56156B545655FF67BE8ECBE5A23F800B02C08BF",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Progression\\ProgressionProfile.cs.meta",
+    "sha256": "330738142DFC97DC44A29461B978A9EB6456B5E9B7B422BA87E117BBD68CDC0D",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\EasyResources.Trading.asmdef",
+    "sha256": "23D9FFFB5745AF5AB98A424460401B2BB689C4F5DE9B7FE412CD3FA98BA83BCB",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\EasyResources.Trading.asmdef.meta",
+    "sha256": "FCF2EE06647824A207291F92343990F0E47DEEEB0D8B489E14EBBD7D19603EC7",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceCreditAccount.cs",
+    "sha256": "0F11FFEAC74713A602F742D58A5E21CD9C767EB2183808EE4D015FA6FD570467",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceCreditAccount.cs.meta",
+    "sha256": "B8E242D9A7DDC0D064DE124FAAFBE124CD7335484F9D6427CDFE3CE2C3838E05",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceShop.cs",
+    "sha256": "0E5C88787DCCAD2336F307F5C014981469BE6A4C5BD0BD59E232460256054A60",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceShop.cs.meta",
+    "sha256": "895101869B7BFC1E766F49C0DE2A9084B8581DED4A0A06AE7D462D2849239052",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceTrader.cs",
+    "sha256": "8E92B390452C37628FE3B1D298796E068A463EECF65730E5114C50C0BF786D8B",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\ResourceTrader.cs.meta",
+    "sha256": "8FE29C910D59BB17E663439B9836220CD3F821C93C6554731CA69914B4D12D22",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\TradeCatalog.cs",
+    "sha256": "977AA4DBB8AFB4E53E6ABE84049D30812819FF6D903CFF3D626B5D0F4DED1175",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\Trading\\TradeCatalog.cs.meta",
+    "sha256": "B056DA98F70B8775F5035BBE376AC795453F2B79CE1788F82B850BF334870C3C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\EasyResources.UI.asmdef",
+    "sha256": "456826A21C6D65080F7C880662904728384EC4346CFAA3319A6984050FF6CAF0",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\EasyResources.UI.asmdef.meta",
+    "sha256": "E07E22EB8C4BE4298AF247504E43F1C629F291716744838C08F96EE4BD8495D3",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\ResourcePanel.cs",
+    "sha256": "8837E577193FBDB29357E6FFA36763FBD71DC6983659A5B59981973C3507322E",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\ResourcePanel.cs.meta",
+    "sha256": "513D493537CA43332CEA86B8CBBEB2EFCF59A188440557974A9DCFC83880CE9C",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\Resources.meta",
+    "sha256": "4AF73E9FC5213AD73910FAA4E8F5FD16886596F0BF07CA5FE39B28C79E2684CB",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\Resources\\EasyResources.meta",
+    "sha256": "6B87BA22A8785672BCE596A117F0D19BAE8AE35ADD19B953B462806D6D5B082A",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\Resources\\EasyResources\\DefaultTheme.tss",
+    "sha256": "682E2B1C6CC1D6E332C15F56C840F7D8282CB1E5BC627EB6664580352A752FDA",
+    "cleanCopyMatches": true
+  },
+  {
+    "path": "Runtime\\UI\\Resources\\EasyResources\\DefaultTheme.tss.meta",
+    "sha256": "E116AEDEE7EB6AB2BBC36F6AEE6F115E695F43287AE3DE7464586FDBD9016780",
+    "cleanCopyMatches": true
+  }
+]

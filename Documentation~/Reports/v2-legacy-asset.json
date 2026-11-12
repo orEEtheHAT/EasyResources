@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var wood = UnityEditor.AssetDatabase.LoadAssetAtPath<EasyResources.ResourceDefinition>(\"Assets/Samples/EasyResources/0.2.0/Basics/Wood.asset\"); return new { wood.Id, wood.DisplayName, wood.DecimalPlaces, wood.WeightPerUnit, wood.VolumePerUnit };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Id": "23e57e1c4782436c81c61796f6a955b7",
+        "DisplayName": "Wood",
+        "DecimalPlaces": 0,
+        "WeightPerUnit": 1,
+        "VolumePerUnit": 1
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResourcesV2\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,7 @@
+{
+  "name":"EasyResources.Samples.Workflows",
+  "rootNamespace":"EasyResources.Samples",
+  "references":["EasyResources.Runtime","EasyResources.Production","EasyResources.Trading","EasyResources.Inventory","EasyResources.Progression","EasyResources.Networking","EasyResources.LargeNumbers","EasyResources.UI"],
+  "defineConstraints":["EASY_RESOURCES_UI"],
+  "versionDefines":[{"name":"com.unity.modules.uielements","expression":"1.0.0","define":"EASY_RESOURCES_UI"}]
+}

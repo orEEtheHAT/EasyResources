@@ -1,0 +1,77 @@
+{
+  "success": true,
+  "command": "command test",
+  "data": {
+    "command": "test",
+    "parameters": {},
+    "result": {
+      "status": "completed",
+      "duration": 0.41,
+      "summary": {
+        "total": 7,
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0,
+        "inconclusive": 0
+      },
+      "results": [
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.ComponentsKeepSeparateBalancesAndDestroyReleasesReservations",
+          "Status": "Passed",
+          "Duration": 0.0652063,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.DestroyingOwnerDuringNotificationDefersCleanupUntilObserversFinish",
+          "Status": "Passed",
+          "Duration": 0.0294689,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceContainerTests.UnityEventSeesCompleteCompoundPaymentAndReentryIsRejected",
+          "Status": "Passed",
+          "Duration": 0.0179896,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.ComponentsRestoreAfterWalletWithoutCancellingNewReservations",
+          "Status": "Passed",
+          "Duration": 0.0403775,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.DestroyingInventoryComponentDuringPaymentPublishesThenDisposes",
+          "Status": "Passed",
+          "Duration": 0.0172862,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourceModuleLifecycleTests.DestroyingProgressionComponentDuringPaymentDoesNotInterruptCommit",
+          "Status": "Passed",
+          "Duration": 0.017934,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "EasyResources.Tests.ResourcePanelTests.PanelCreatesItsDocumentUpdatesByEventAndDoesNotDuplicateOnEnable",
+          "Status": "Passed",
+          "Duration": 0.1304656,
+          "Message": null,
+          "StackTrace": null
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var demo = UnityEngine.Object.FindFirstObjectByType<EasyResources.Samples.ResourceBasicsDemo>(); return new { demo.Passed, demo.Report };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Passed": true,
+        "Report": "PASS  Pay 4 Wood + 2 Stone\r\nPASS  A has 6 Wood / 3 Stone\r\nPASS  B stays independent: 3 Wood / 1 Stone\r\nPASS  Missing Stone leaves Wood untouched\r\nPASS  First consumer reserves the cost\r\nPASS  Competing reservation is refused\r\nPASS  Total 6 / Reserved 4 / Available 2 Wood\r\nPASS  Saving an active reservation is refused explicitly\r\nPASS  Cancel restores availability; second cancel is safe\r\nPASS  A new reservation commits once\r\nPASS  Repeated confirmation cannot spend twice\r\nPASS  Spend after capturing a snapshot\r\nPASS  Restore returns A to 6 Wood / 3 Stone\r\n"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Audits\\EasyResources\\IntegrationWave1\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

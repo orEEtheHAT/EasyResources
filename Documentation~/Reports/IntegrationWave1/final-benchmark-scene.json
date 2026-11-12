@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var active = UnityEngine.SceneManagement.SceneManager.GetActiveScene(); var scene = UnityEditor.SceneManagement.EditorSceneManager.OpenScene(\"Assets/PackageTests/EasyResources/IntegrationWave1/ResourceNotificationBenchmark.unity\", UnityEditor.SceneManagement.OpenSceneMode.Additive); try { var roots = scene.GetRootGameObjects(); var valid = roots.Length == 1 && roots[0].GetComponent<EasyResources.IntegrationTests.ResourceNotificationBenchmark>() != null; if (!valid) throw new System.InvalidOperationException(\"Invalid benchmark scene component.\"); return new { valid, scene.path, scene.rootCount }; } finally { UnityEditor.SceneManagement.EditorSceneManager.CloseScene(scene, true); UnityEngine.SceneManagement.SceneManager.SetActiveScene(active); }"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "valid": true,
+        "path": "Assets/PackageTests/EasyResources/IntegrationWave1/ResourceNotificationBenchmark.unity",
+        "rootCount": 1
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

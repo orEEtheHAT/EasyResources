@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "command": "command editor",
+  "data": {
+    "command": "editor",
+    "parameters": {},
+    "result": {
+      "status": "ready",
+      "compiling": false,
+      "domainReloadInProgress": false,
+      "codeLoadCount": 68,
+      "autoRefresh": "enabled",
+      "playMode": "stopped",
+      "runInBackground": false,
+      "lastHeartbeat": "2026-11-11T23:52:19.5929318Z",
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory",
+      "unityVersion": "6000.3.22f1",
+      "role": "main",
+      "instanceName": "Main Editor"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

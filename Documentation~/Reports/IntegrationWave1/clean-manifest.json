@@ -1,0 +1,13 @@
+{
+  "testables": [
+    "com.oreethehat.easy-resources"
+  ],
+  "dependencies": {
+    "com.unity.pipeline": "0.10.0-exp.1",
+    "com.oreethehat.easy-resources": "file:C:/Users/LeshaPC/Games Factory/Audits/EasyResources/IntegrationWave1/CleanPackage",
+    "com.unity.test-framework": "1.6.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0"
+  }
+}

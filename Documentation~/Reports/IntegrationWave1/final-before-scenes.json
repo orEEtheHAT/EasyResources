@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "command": "command scene",
+  "data": {
+    "command": "scene",
+    "parameters": {},
+    "result": {
+      "count": 1,
+      "scenes": [
+        {
+          "name": "EasySuiteLab",
+          "path": "Assets/PackageTests/EasySuite/EasySuiteLab.unity",
+          "isLoaded": true,
+          "isDirty": false,
+          "isActive": true,
+          "rootCount": 10
+        }
+      ]
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

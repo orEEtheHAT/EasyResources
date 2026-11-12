@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "code": "var demo = UnityEngine.Object.FindFirstObjectByType<EasyResources.Samples.ResourceWorkflowsDemo>(); return new { demo.Completed, demo.CheckCount, demo.FailureCount };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "Completed": true,
+        "CheckCount": 18,
+        "FailureCount": 0
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7802,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory\\Temp\\EasyResourcesV2\\CleanProject"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

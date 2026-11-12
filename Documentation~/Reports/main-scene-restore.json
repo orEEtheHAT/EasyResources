@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "command": "command script",
+  "data": {
+    "command": "script",
+    "parameters": {
+      "file": "Temp/EasyResources/SceneContext.cs",
+      "entry": "ResourceSceneContext.Restore"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 211,
+      "executeMs": 553,
+      "assemblyName": "PipelineRunScript_SceneContext_277e7784f370440c89fdfeda4c30dc58",
+      "success": true,
+      "result": "Restored the previous shared editor scene setup."
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\Users\\LeshaPC\\Games Factory"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

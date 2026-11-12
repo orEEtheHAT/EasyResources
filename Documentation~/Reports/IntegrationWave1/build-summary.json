@@ -1,0 +1,15 @@
+{
+  "status": "completed",
+  "buildId": "build_9e63fed9358e",
+  "result": "Succeeded",
+  "platform": "StandaloneWindows64",
+  "outputPath": "C:/Users/LeshaPC/Games Factory/Audits/EasyResources/IntegrationWave1/Builds/NotificationBenchmark/NotificationBenchmark.exe",
+  "totalSizeBytes": 149512823,
+  "buildTimeMs": 14560,
+  "buildStartedAt": "2026-11-12T14:20:03.2905242Z",
+  "buildEndedAt": "2026-11-12T14:20:17.8514338Z",
+  "totalWarnings": 0,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": []
+}
